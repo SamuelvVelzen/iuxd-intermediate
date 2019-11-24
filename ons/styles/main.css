@@ -65,22 +65,45 @@ body {
   padding: 10px;
 }
 
-.cardscontainer .card .content {
+.cardscontainer .card .card-content {
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.cardscontainer .card .content .placeholder {
+.cardscontainer .card .card-content .placeholder {
   height: 50px;
   margin-bottom: 10px;
   border: 1px solid #000;
 }
 
-.cardscontainer .card .content .text {
+.cardscontainer .card .card-content .text {
 }
 
-.cardscontainer .card .content .actionbutton {
+.cardscontainer .card .card-content .actionbutton {
   width: 50%;
   margin: 0 auto;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content .content-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content .content-header p {
+  margin: 0 40px;
+}
+
+.content .content-header p.active {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .content-header p:not(.active) {
+  line-height: 30px;
 }
