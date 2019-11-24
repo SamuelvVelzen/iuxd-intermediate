@@ -104,16 +104,18 @@ div.content-body {
   background: none;
   border-radius: 5px;
   margin-top: auto;
+  background-color: grey;
+  color: black;
 }
 
 .cardscontainer .card .card-content .actionbutton:hover {
   background-color: grey;
-  color: white;
+  color: black;
 }
 
 .cardscontainer .card .card-content .actionbutton:active {
   background-color: #000;
-  color: #fff;
+  color: white;
 }
 
 .content {
