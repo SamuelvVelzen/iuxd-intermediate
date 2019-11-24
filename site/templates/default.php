@@ -16,7 +16,8 @@
 <body>
     <h1><?= $page->title() ?></h1>
 
-    <p><?= $page->text()->kirbytext() ?></p>
+
+    <p><?= $page->inleiding()->kirbytext() ?></p>
 
 
 
