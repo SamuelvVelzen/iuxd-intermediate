@@ -3,12 +3,17 @@
   src: url(./fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
 }
 
+h1 {
+margin-left: 10px;
+}
+
 body {
   background-color: white;
   font-family: "ProximaNovaBold";
 }
 
 .owl-carousel img {
-
   max-width: 98%;
+  margin-left: 10px;
+
 }
