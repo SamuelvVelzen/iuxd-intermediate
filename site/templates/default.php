@@ -18,7 +18,7 @@
 
     <p><?= $page->text()->kirbytext() ?></p>
 
-    <iframe src="www.youtube.com" frameborder="0"></iframe>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
