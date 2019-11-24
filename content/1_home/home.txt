@@ -1,9 +1,7 @@
-Title: My Awesome IUXD Topic
+Title: Visual Branding
 
 ----
 
-Text:
+Inleiding:
 
-Hi IUXD Student, this is the IUXD-Intermediate Template Repository.
-
-As you can see Kirby and Bootstrap have been provided. Good luck with realising the 0.1 one pager!
+Visualb braning hoahahahahd fasosls fal;kl lore smfasfa lore smfasfa lore smfasfa lore smfasfa lore smfasfa lore smfasfa
