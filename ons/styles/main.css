@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "ProximaNovaRegular", "ProximaNovaBold";
 }
 h1.titel {
   margin-top: 20px;
@@ -35,16 +36,14 @@ p.Inleiding {
 
 body {
   background-color: white;
-  font-family: "ProximaNovaRegular", "ProximaNovaBold";
   margin: 0 10px;
 }
 
-div.content-body{
+div.content-body {
   margin-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 40px
-
+  margin-bottom: 40px;
 }
 
 .owl-carousel {
@@ -66,6 +65,8 @@ div.content-body{
   max-width: 20%;
   border: 1px solid #000;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardscontainer .card:nth-of-type(2) {
@@ -82,6 +83,7 @@ div.content-body{
   padding: 10px;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .cardscontainer .card .card-content .placeholder {
@@ -91,11 +93,27 @@ div.content-body{
 }
 
 .cardscontainer .card .card-content .text {
+  margin-bottom: 20px;
 }
 
 .cardscontainer .card .card-content .actionbutton {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
+  outline: none;
+  padding: 5px;
+  background: none;
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+.cardscontainer .card .card-content .actionbutton:hover {
+  background-color: grey;
+  color: white;
+}
+
+.cardscontainer .card .card-content .actionbutton:active {
+  background-color: #000;
+  color: #fff;
 }
 
 .content {
@@ -110,6 +128,21 @@ div.content-body{
 
 .content .content-header p {
   margin: 0 40px;
+  margin-top: auto;
+}
+
+.content .content-header p::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s;
+}
+
+.content .content-header p:hover::after {
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .content .content-header p.active {
@@ -119,5 +152,5 @@ div.content-body{
 }
 
 .content .content-header p:not(.active) {
-  line-height: 30px;
+  line-height: 18px;
 }
