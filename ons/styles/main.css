@@ -39,6 +39,14 @@ body {
   margin: 0 10px;
 }
 
+div.content-body{
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40px
+
+}
+
 .owl-carousel {
   margin-left: 10px;
   margin-right: 10px;
@@ -86,7 +94,7 @@ body {
 }
 
 .content {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .content .content-header {
