@@ -22,48 +22,69 @@ var selectSubject = (function() {
 
     if (type == "why") {
       if (!contentW.classList.contains("active")) {
-        //remove active selectors
-        elH.classList.remove("active");
-        elT.classList.remove("active");
         //change active selectors
         elW.classList.add("active");
-        //change content
-        contentH.classList.remove("active");
-        contentT.classList.remove("active");
 
-        contentW.classList.add("active");
-      } else {
+        contentH.classList.add("flyout");
+        contentT.classList.add("flyout");
+
+        setTimeout(() => {
+          contentH.classList.remove("flyout");
+          contentT.classList.remove("flyout");
+          contentW.classList.add("active");
+        }, 500);
       }
+      //remove active selectors
+      elH.classList.remove("active");
+      elT.classList.remove("active");
+
+      //change content
+      contentH.classList.remove("active");
+      contentT.classList.remove("active");
     } else if (type == "how") {
       if (!contentH.classList.contains("active")) {
-        //remove active selectors
-        elW.classList.remove("active");
-        elT.classList.remove("active");
         //change active selectors
         elH.classList.add("active");
-        //change content
-        contentW.classList.remove("active");
-        contentT.classList.remove("active");
 
-        contentH.classList.add("active");
-      } else {
+        contentW.classList.add("flyout");
+        contentT.classList.add("flyout");
+
+        setTimeout(() => {
+          contentW.classList.remove("flyout");
+          contentT.classList.remove("flyout");
+          contentH.classList.add("active");
+        }, 500);
       }
+      //remove active selectors
+      elW.classList.remove("active");
+      elT.classList.remove("active");
+
+      //change content
+      contentW.classList.remove("active");
+      contentT.classList.remove("active");
     } else {
       //what
 
       if (!contentT.classList.contains("active")) {
-        //remove active selectors
-        elH.classList.remove("active");
-        elW.classList.remove("active");
         //change active selectors
         elT.classList.add("active");
-        //change content
-        contentH.classList.remove("active");
-        contentW.classList.remove("active");
 
-        contentT.classList.add("active");
-      } else {
+        contentH.classList.add("flyout");
+        contentW.classList.add("flyout");
+
+        setTimeout(() => {
+          contentH.classList.remove("flyout");
+          contentW.classList.remove("flyout");
+          contentT.classList.add("active");
+        }, 500);
       }
+      //remove active selectors
+      elH.classList.remove("active");
+      elW.classList.remove("active");
+
+      //change content
+      contentH.classList.remove("active");
+      contentW.classList.remove("active");
     }
   };
 
