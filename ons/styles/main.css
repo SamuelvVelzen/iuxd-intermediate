@@ -17,13 +17,14 @@ h1.titel {
   margin-top: 20px;
   margin-left: 10px;
   margin-bottom: 20px;
+  font-family: "ProximaNovaBold";
 }
 
 h1.titel-inleiding {
   text-align: center;
   margin-top: 20px;
+  font-family: "ProximaNovaBold";
 }
-
 
 body {
   background-color: white;
@@ -31,14 +32,10 @@ body {
   margin: 0 10px;
 }
 
-
-
-
-.owl-carousel{
+.owl-carousel {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 
 .owl-carousel img {
   max-width: 98%;
@@ -74,7 +71,6 @@ body {
 }
 
 .cardscontainer .card .content .text {
-
 }
 
 .cardscontainer .card .content .actionbutton {
