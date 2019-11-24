@@ -5,14 +5,10 @@
 
 body {
   background-color: white;
-  font-family: 'ProximaNovaBold';
-
+  font-family: "ProximaNovaBold";
 }
 
-div.owl-carousel img {
-  max-height: 700px;
-  max-width: 900px;
-  margin: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+.owl-carousel img {
+  max-height: 200px;
+  max-width: 30%;
 }
