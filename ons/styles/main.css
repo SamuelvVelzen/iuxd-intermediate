@@ -8,12 +8,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1.titel {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+h1.titel-inleiding {
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 body {
   background-color: white;
   font-family: "ProximaNovaBold";
-  margin: 0 10px;
+  margin: 20px 20px;
 }
+
+
+
+
+.owl-carousel{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 
 .owl-carousel img {
   max-width: 98%;
@@ -46,6 +66,10 @@ body {
   height: 50px;
   margin-bottom: 10px;
   border: 1px solid #000;
+}
+
+.cardscontainer .card .content .text {
+
 }
 
 .cardscontainer .card .content .actionbutton {
