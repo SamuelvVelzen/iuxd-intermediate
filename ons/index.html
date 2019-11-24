@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="styles/owl.carousel.min.css" />
+
+    <script src="./logic/main.js"></script>
   </head>
   <body>
     <h1 class="titel">Visual Branding</h1>
@@ -22,8 +24,14 @@
       <img src="./styles/Images/testbeeld-2.jpg" alt="" />
     </div>
 
-    <h1 class="titel-inleiding"> Inleiding  </h1>
-<p class="Inleiding">Visual branding is iets wat mee verandert met de tijd. Vroeger ging visual branding vooral om het verkopen van het product. Nu gaat het om de beleving en sfeerimpressie van het product/merk en in de toekomst zal het gaan om de aura van een merk/product. Hoe pas je dit nou toe bij je eigen merk, waarom is het nodig en wat houdt dit allemaal in?</p>
+    <h1 class="titel-inleiding">Inleiding</h1>
+    <p class="Inleiding">
+      Visual branding is iets wat mee verandert met de tijd. Vroeger ging visual
+      branding vooral om het verkopen van het product. Nu gaat het om de
+      beleving en sfeerimpressie van het product/merk en in de toekomst zal het
+      gaan om de aura van een merk/product. Hoe pas je dit nou toe bij je eigen
+      merk, waarom is het nodig en wat houdt dit allemaal in?
+    </p>
 
     <div class="cardscontainer">
       <div class="card">
@@ -31,21 +39,16 @@
         <div class="card-content">
           <div class="placeholder">x</div>
           <p class="text">
-            Visual branding helpt niet alleen bij het bereiken van de juiste doelgroep. 
-            Waarom is het zo belangrijk? Wat voor voordelen heeft een goede branding?           </p>
-          <button class="actionbutton">Verder</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <h1>Wat</h1>
-        <div class="card-content">
-          <div class="placeholder">x</div>
-          <p class="text">
-            Wat komt er nou allemaal bij kijken? Wie zijn er nodig om tot een goede visual branding te komen? 
-            Wat voor informatie heeft een bedrijf/merk nodig? Wat gebeurt er in het ontwerpproces?
+            Visual branding helpt niet alleen bij het bereiken van de juiste
+            doelgroep. Waarom is het zo belangrijk? Wat voor voordelen heeft een
+            goede branding?
           </p>
-          <button class="actionbutton">Verder</button>
+          <button
+            class="actionbutton"
+            onclick="selectSubject.showContent('why')"
+          >
+            Verder
+          </button>
         </div>
       </div>
 
@@ -54,51 +57,89 @@
         <div class="card-content">
           <div class="placeholder">x</div>
           <p class="text">
-            Welke tools heb je nodig om een goede visual branding te krijgen? Welke stappen 
-            onderneem je in het ontwerpproces? Hoe creëer je nou goede visual branding?
+            Welke tools heb je nodig om een goede visual branding te krijgen?
+            Welke stappen onderneem je in het ontwerpproces? Hoe creëer je nou
+            goede visual branding?
           </p>
-          <button class="actionbutton">Verder</button>
+          <button
+            class="actionbutton"
+            onclick="selectSubject.showContent('how')"
+          >
+            Verder
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h1>Wat</h1>
+        <div class="card-content">
+          <div class="placeholder">x</div>
+          <p class="text">
+            Wat komt er nou allemaal bij kijken? Wie zijn er nodig om tot een
+            goede visual branding te komen? Wat voor informatie heeft een
+            bedrijf/merk nodig? Wat gebeurt er in het ontwerpproces?
+          </p>
+          <button
+            class="actionbutton"
+            onclick="selectSubject.showContent('what')"
+          >
+            Verder
+          </button>
         </div>
       </div>
     </div>
 
     <div class="content">
       <div class="content-header">
-        <p>Waarom</p>
-        <p class="active">Waarom</p>
-        <p>Waarom</p>
+        <p id="whyChoose">Waarom</p>
+        <p id="howChoose">Hoe</p>
+        <p id="whatChoose">Wat</p>
       </div>
 
       <div class="content-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor numquam,
-        saepe dicta blanditiis porro sed aut? Quos consectetur explicabo quam,
-        non quo sit quae, ut quia nisi dignissimos voluptas! Deleniti? Lorem
-        ipsum dolor sit amet consectetur, adipisicing elit. Esse possimus, sequi
-        impedit rerum deserunt voluptates voluptatum nam temporibus explicabo,
-        neque et! Laboriosam accusamus hic nulla, suscipit ab totam porro
-        consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Quis incidunt distinctio illo voluptate reprehenderit tenetur nemo modi
-        fugit provident accusamus, odio soluta deserunt? Dolorum, provident vero
-        similique aut eum est?Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Dolor numquam, saepe dicta blanditiis porro sed aut?
-        Quos consectetur explicabo quam, non quo sit quae, ut quia nisi
-        dignissimos voluptas! Deleniti? Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Esse possimus, sequi impedit rerum deserunt voluptates
-        voluptatum nam temporibus explicabo, neque et! Laboriosam accusamus hic
-        nulla, suscipit ab totam porro consectetur. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Quis incidunt distinctio illo voluptate
-        reprehenderit tenetur nemo modi fugit provident accusamus, odio soluta
-        deserunt? Dolorum, provident vero similique aut eum est?Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Dolor numquam, saepe dicta
-        blanditiis porro sed aut? Quos consectetur explicabo quam, non quo sit
-        quae, ut quia nisi dignissimos voluptas! Deleniti? Lorem ipsum dolor sit
-        amet consectetur, adipisicing elit. Esse possimus, sequi impedit rerum
-        deserunt voluptates voluptatum nam temporibus explicabo, neque et!
-        Laboriosam accusamus hic nulla, suscipit ab totam porro consectetur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis incidunt
-        distinctio illo voluptate reprehenderit tenetur nemo modi fugit
-        provident accusamus, odio soluta deserunt? Dolorum, provident vero
-        similique aut eum est?
+        <div id="whyContent" class="content-body-section">
+          blauafda lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks akblauafda
+          lfdkajd;lfa lfakdjls sdfkslf sdlkfs s skdks ssks ak
+        </div>
+        <div id="howContent" class="content-body-section">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+          numquam, saepe dicta blanditiis porro sed aut? Quos consectetur
+          explicabo quam, non quo sit quae, ut quia nisi dignissimos voluptas!
+          Deleniti? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Esse possimus, sequi impedit rerum deserunt voluptates voluptatum nam
+          temporibus explicabo, neque et! Laboriosam accusamus hic nulla,
+          suscipit ab totam porro consectetur. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quis incidunt distinctio illo voluptate
+          reprehenderit tenetur nemo modi fugit provident accusamus, odio soluta
+          deserunt? Dolorum, provident vero similique aut eum est?Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Dolor numquam, saepe
+          dicta blanditiis porro sed aut? Quos consectetur explicabo quam, non
+          quo sit quae, ut quia nisi dignissimos voluptas! Deleniti? Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Esse possimus, sequi
+        </div>
+        <div id="whatContent" class="content-body-section">
+          snek snek snek snek snek snek snek snek snek snek snek snek snek snek
+          snek snek snek snek snek snek snek snek snek snek snek snek snek snek
+          snek snek snek snek snek snek snek snek snek snek snek snek snek snek
+          snek snek snek snek snek snek snek snek snek snek snek snek snek snek
+          snek snek snek snek snek snek snek snek snek snek snek snek snek snek
+          snek snek
+        </div>
       </div>
     </div>
 
@@ -111,6 +152,8 @@
           items: 2
         });
       });
+
+      selectSubject.init();
     </script>
   </body>
 </html>
