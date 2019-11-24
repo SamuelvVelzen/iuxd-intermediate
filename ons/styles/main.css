@@ -3,6 +3,11 @@
   src: url(./fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
 }
 
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(./fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +27,8 @@ h1.titel-inleiding {
 
 body {
   background-color: white;
-  font-family: "ProximaNovaBold";
-  margin: 20px 20px;
+  font-family: "ProximaNovaRegular", "ProximaNovaBold";
+  margin: 0 10px;
 }
 
 
