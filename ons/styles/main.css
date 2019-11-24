@@ -14,6 +14,11 @@
   box-sizing: border-box;
   font-family: "ProximaNovaRegular", "ProximaNovaBold";
 }
+
+b {
+  font-family: "ProximaNovaBold";
+}
+
 h1.titel {
   margin-top: 20px;
   margin-left: 10px;
@@ -106,7 +111,7 @@ div.content-body {
   margin-top: auto;
   border: 1px solid grey;
   background-color: grey;
-  color: black;
+  color: white;
 }
 
 .cardscontainer .card .card-content .actionbutton:hover {
@@ -175,9 +180,32 @@ div.content-body {
   display: block;
   animation: flyIn 1s;
 }
+.content .content-body .content-body-section.flyout {
+  display: block;
+  animation: flyOut 0.5s;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol.circle {
+  list-style-type: disc;
+}
+
+ol li {
+  margin-left: 20px;
+  padding: 5px 0 5px 5px;
+}
 
 @keyframes flyIn {
   0% {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes flyOut {
+  100% {
+    transform: translateX(200%);
   }
 }
