@@ -168,6 +168,7 @@ div.content-body {
 
 .content .content-body .content-body-section {
   display: none;
+  margin-top: 20px;
 }
 
 .content .content-body .content-body-section.active {
