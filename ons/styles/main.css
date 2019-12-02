@@ -8,204 +8,50 @@
   src: url(./fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf);
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "ProximaNovaRegular", "ProximaNovaBold";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "ProximaNovaRegular", "ProximaNovaBold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #151515;
+  letter-spacing: 2px;
 }
 
 b {
-  font-family: "ProximaNovaBold";
+  font: "ProximaNovaBold";
 }
 
-h1.titel {
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  font-family: "ProximaNovaBold";
+section {
+  min-height: 100vh;
+  border-bottom: 1px solid #151515;
 }
 
-h1.titel-inleiding {
-  text-align: center;
-  margin-top: 40px;
-  font-family: "ProximaNovaBold";
-}
-
-p.Inleiding {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 80px;
-}
-
-body {
-  background-color: white;
-  margin: 0 10px;
-}
-
-div.content-body {
-  margin-top: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 40px;
-}
-
-.owl-carousel {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.owl-carousel img {
-  max-width: 98%;
-}
-
-.cardscontainer {
-  display: flex;
-  justify-content: center;
-}
-
-.cardscontainer .card {
-  flex: 1;
-  max-width: 20%;
-  border: 1px solid #000;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-
-.cardscontainer .card:nth-of-type(2) {
-  margin: 0 10px;
-}
-
-.cardscontainer .card h1 {
-  border-bottom: 1px solid #000;
-  padding: 10px;
-  text-align: center;
-}
-
-.cardscontainer .card .card-content {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.cardscontainer .card .card-content .placeholder {
-  height: 50px;
-  margin-bottom: 10px;
-  border: 1px solid #000;
-}
-
-.cardscontainer .card .card-content .text {
-  margin-bottom: 20px;
-}
-
-.cardscontainer .card .card-content .actionbutton {
-  width: 40%;
-  margin: 0 auto;
-  outline: none;
-  padding: 5px;
-  background: none;
-  border-radius: 5px;
-  margin-top: auto;
-  border: 1px solid grey;
-  background-color: grey;
-  color: white;
-}
-
-.cardscontainer .card .card-content .actionbutton:hover {
-  background-color: grey;
-  color: black;
-}
-
-.cardscontainer .card .card-content .actionbutton:active {
-  background-color: #000;
-  color: white;
-}
-
-.content {
-  margin-top: 40px;
-}
-
-.content .content-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  transition: all 0.5s;
-}
-
-.content .content-header p {
-  margin: 0 40px;
-}
-
-.content .content-header p::after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 2px;
-  background-color: #000;
-  transition: width 0.3s;
-}
-
-.content .content-header p:hover::after {
+#intro iframe {
   width: 100%;
-  transition: width 0.3s;
+  height: 100vh;
 }
 
-.content .content-header p.active {
-  font-size: 28px;
-  font-weight: bold;
+#whw {
+  margin: 0 15%;
 }
 
-.content .content-header p.active::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #000;
-  transition: width 0.3s;
+#whw .question {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.content .content-header p:not(.active) {
-  margin-top: auto;
+#whw .question div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-.content .content-body .content-body-section {
-  display: none;
-  margin-top: 20px;
+#steps {
+  background-color: lightgrey;
 }
-
-.content .content-body .content-body-section.active {
-  display: block;
-  animation: flyIn 1s;
-}
-.content .content-body .content-body-section.flyout {
-  display: block;
-  animation: flyOut 0.5s;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ol.circle {
-  list-style-type: disc;
-}
-
-ol li {
-  margin-left: 20px;
-  padding: 5px 0 5px 5px;
-}
-
-@keyframes flyIn {
-  0% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes flyOut {
-  100% {
-    transform: translateX(200%);
-  }
-}
+/*# sourceMappingURL=main.css.map */
