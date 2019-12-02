@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <h1><?= $page->title() ?></h1>
+    <h1 class="titel"><?= $page->title() ?></h1>
 
     <div class="owl-carousel">
         <img src="<?= image('placeholder.jpg')->url() ?>" alt="" />
@@ -32,17 +32,17 @@
 
 
     <h1 class="titel-inleiding">Inleiding</h1>
-    <p class="Inleiding">
-        <?= $page->inleiding()->kirbytext() ?>
+    <p class="inleiding">
+        <?= $page->inleiding() ?>
     </p>
 
     <div class="cardscontainer">
         <div class="card">
-            <h1>Waarom</h1>
+            <h1 class="titel">Waarom</h1>
             <div class="card-content">
                 <div class="placeholder">x</div>
                 <p class="text">
-                    <?= $page->why_inleiding()->kirbytext() ?>
+                    <?= $page->why_inleiding() ?>
                 </p>
                 <button class="actionbutton" onclick="selectSubject.showContent('why')">
                     Verder
@@ -51,11 +51,11 @@
         </div>
 
         <div class="card">
-            <h1>Hoe</h1>
+            <h1 class="titel">Hoe</h1>
             <div class="card-content">
                 <div class="placeholder">x</div>
                 <p class="text">
-                    <?= $page->how_inleiding()->kirbytext() ?>
+                    <?= $page->how_inleiding() ?>
                 </p>
                 <button class="actionbutton" onclick="selectSubject.showContent('how')">
                     Verder
@@ -64,11 +64,11 @@
         </div>
 
         <div class="card">
-            <h1>Wat</h1>
+            <h1 class="titel">Wat</h1>
             <div class="card-content">
                 <div class="placeholder">x</div>
                 <p class="text">
-                    <?= $page->what_inleiding()->kirbytext() ?>
+                    <?= $page->what_inleiding() ?>
                 </p>
                 <button class="actionbutton" onclick="selectSubject.showContent('what')">
                     Verder
@@ -79,20 +79,20 @@
 
     <div class="content">
         <div class="content-header">
-            <p id="whyChoose">Waarom</p>
-            <p id="howChoose">Hoe</p>
-            <p id="whatChoose">Wat</p>
+            <p class="option" id="whyChoose">Waarom</p>
+            <p class="option" id="howChoose">Hoe</p>
+            <p class="option" id="whatChoose">Wat</p>
         </div>
 
         <div class="content-body">
             <div id="whyContent" class="content-body-section">
-                <?= $page->why_content()->kirbytext() ?>
+                <?= $page->why_content() ?>
             </div>
             <div id="howContent" class="content-body-section">
-                <?= $page->how_content()->kirbytext() ?>
+                <?= $page->how_content() ?>
             </div>
             <div id="whatContent" class="content-body-section">
-                <?= $page->what_content()->kirbytext() ?>
+                <?= $page->what_content() ?>
             </div>
         </div>
     </div>
