@@ -16,43 +16,98 @@
 </head>
 
 <body>
-    <section id="intro">
-        <iframe src="https://www.youtube.com/embed/83znCQhr1QM" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-    </section>
-    <section id="whw">
-        <h1 class="title"></h1>
 
-        <div class="why question">
-            <div class="text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
-                incidunt veniam similique laudantium quis asperiores et quibusdam
-                quasi, illum architecto vel sed! Quos corrupti dolore saepe voluptates
-                cum minima asperiores.
+    <body>
+        <section id="intro">
+            <?php foreach($page->videos() as $video): ?>
+            <video width="100%" height="100vh" autoplay muted loop>
+                <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                Your browser does not support the video tag.
+            </video>
+            <?php endforeach ?>
+
+            <div>
+                <p class="titelpage">Visual Branding</p>
+                <p class="namen">Samuel & Gabrielle</p>
+                <p class="introductie">
+                    <?= $page->Inleiding() ?>
+                </p>
             </div>
-            <div class="image"></div>
-        </div>
-        <div class="how question">
-            <div class="image"></div>
-            <div class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                libero architecto laborum, corrupti expedita necessitatibus ratione ut
-                maxime nemo illo ad unde perferendis. Iure minima odit omnis maxime
-                temporibus necessitatibus.
+
+        </section>
+        <section id="whw">
+            <h1 class="title"></h1>
+
+            <div class="why question">
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
+                    incidunt veniam similique laudantium quis asperiores et quibusdam
+                    quasi, illum architecto vel sed! Quos corrupti dolore saepe voluptates
+                    cum minima asperiores.
+                </div>
+                <div class="image"></div>
             </div>
-        </div>
-        <div class="what question">
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                voluptatibus doloribus repellat cupiditate laborum omnis
-                necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+            <div class="how question">
+                <div class="image"></div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                    libero architecto laborum, corrupti expedita necessitatibus ratione ut
+                    maxime nemo illo ad unde perferendis. Iure minima odit omnis maxime
+                    temporibus necessitatibus.
+                </div>
             </div>
-            <div class="image"></div>
-        </div>
-    </section>
-    <section id="steps"></section>
+            <div class="what question">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+                </div>
+                <div class="image"></div>
+            </div>
+        </section>
+        <section id="steps" class="stepscontainer">
+            <div class="step">
+                <h1>1</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>2</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>3</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>4</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+        </section>
+    </body>
 </body>
 
 </html>
