@@ -2,34 +2,23 @@ Title: Visual Branding
 
 ----
 
-Inleiding:
-
-Visual branding is iets wat mee verandert met de tijd. Vroeger ging visual branding vooral om het verkopen van het product. Nu gaat het om de beleving en sfeerimpressie van het product/merk en in de toekomst zal het gaan om de aura van een merk/product. Hoe pas je dit nou toe bij je eigen merk, waarom is het nodig en wat houdt dit allemaal in?
+Inleiding: Visual branding is iets wat mee verandert met de tijd. Vroeger ging visual branding vooral om het verkopen van het product. Nu gaat het om de beleving en sfeerimpressie van het product/merk en in de toekomst zal het gaan om de aura van een merk/product. Hoe pas je dit nou toe bij je eigen merk, waarom is het nodig en wat houdt dit allemaal in?
 
 ----
 
-Why_Inleiding:
-
-Visual branding helpt niet alleen bij het bereiken van de juiste doelgroep. Waarom is het zo belangrijk? Wat voor voordelen heeft een goede branding?
+Why-inleiding: Visual branding helpt niet alleen bij het bereiken van de juiste doelgroep. Waarom is het zo belangrijk? Wat voor voordelen heeft een goede branding?
 
 ----
 
-How_Inleiding:
-
-Welke tools heb je nodig om een goede visual branding te krijgen? Welke stappen onderneem je in het ontwerpproces? Hoe creëer je nou goede visual branding?
-<br />
-hoi
-
+How-inleiding: Welke tools heb je nodig om een goede visual branding te krijgen? Welke stappen onderneem je in het ontwerpproces? Hoe creëer je nou goede visual branding?
 
 ----
 
-What_Inleiding:
-
-Wat komt er nou allemaal bij kijken? Wie zijn er nodig om tot een goede visual branding te komen? Wat voor informatie heeft een bedrijf/merk nodig? Wat gebeurt er in het ontwerpproces?
+What-inleiding: Wat komt er nou allemaal bij kijken? Wie zijn er nodig om tot een goede visual branding te komen? Wat voor informatie heeft een bedrijf/merk nodig? Wat gebeurt er in het ontwerpproces?
 
 ----
 
-Why_Content:
+Why-content:
 
 Er zal dieper ingegaan worden op de rol van visual branding daarnaast zal er ook gekeken worden naar de verschillende tools die erbij komen kijken hoe visual branding wordt opgezet.
 
@@ -43,7 +32,7 @@ Om een visual branding te creëren worden verschillende programma’s gebruikt o
 
 ----
 
-How_Content:
+How-content:
 
 Hoe de visuele identiteit van een bedrijf wordt ervaren ligt dichtbij hoe een persoon een eigen identiteit ervaart. Wat maakt je wie je bent en hoe kom je over. Dat is hét belangrijkste onderdeel als het gaat om onderscheiding. Een visuele bedrijfsidentiteit laat zien wat je doet als bedrijf, wat je merkwaarden zijn en wat voor verhaal je vertelt. Probeer voor jezelf en je medewerkers altijd de merkwaarden goed op papier te krijgen. Deze merkwaarden geven namelijk aan hoe het bedrijf te werk gaat, en bieden een leidraad voor je merk. Het is hierbij belangrijk om in kaart te brengen wat je als bedrijf doet. Een voorbeeld: Ben je een verzekeraar, dan zit er niemand te wachten op humoristische berichtjes op social media. Maar organiseer je toffe evenementen in Nederland? Dan mag er best een lachje vanaf. Het draait dus allemaal om het juiste gevoel. Het belangrijkste hieruit is de communicatie. Hoe laat je je verhaal overkomen en welke tools gebruik je daar nou voor?
 
@@ -59,7 +48,7 @@ Chocomel is ook een goed voorbeeld. Als iemand een glas chocomelk wilt, spreekt 
 
 ----
 
-What_Content:
+What-content:
 
 Als eerst gaan we kijken naar de ontwikkeling van een product in een ontwerpproces. Hierna zullen we gaan kijken wat nou een goed product is. En als laatst zullen we de verschillende online resources behandelen.
 
@@ -92,5 +81,3 @@ Als laatst kan een profesional de volgende online resources gebruiken om een suc
 Ten eerste moet er tijdens het onderzoek gekeken worden naar de huidige website / visual branding, zodat voor de huidige klanten de vertrouwelijkheid van het bedrijf niet veranderd.
 
 Daarnaast moet er onderzoeken gedaan worden op het internet over soortgelijke producten en hoe de concurrentie deze producten op de markt brengt.
-
-----
