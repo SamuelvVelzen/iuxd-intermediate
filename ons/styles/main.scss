@@ -8,8 +8,11 @@ $black: #151515;
 $white: white;
 $grey: lightgrey;
 
-$container: 0 15%;
+$container: 0 10%;
 $space: 15px;
+
+$tablet: 767px;
+$mobile: 540px;
 
 @font-face {
   font-family: ProximaNovaBold;
@@ -58,9 +61,48 @@ section {
     div {
       flex: 1;
     }
+
+    .image {
+      background-color: black;
+    }
   }
 }
 
 #steps {
   background-color: $grey;
+  padding: $container;
+
+  &.stepscontainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .step {
+      width: 25%;
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+//responsive
+@media screen and (max-width: $tablet) {
+  #steps {
+    &.stepscontainer {
+      .step {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  #steps {
+    &.stepscontainer {
+      .step {
+        width: 100%;
+      }
+    }
+  }
 }
