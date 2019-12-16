@@ -1,10 +1,9 @@
 //variables
-$fonts: "ProximaNovaRegular", "ProximaNovaBold", -apple-system,
-  BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-  "Helvetica Neue", sans-serif;
-$bold-font: "ProximaNovaBold";
+$fonts: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$font-bold: "ProximaNovaBold";
 
-$serif: "ProximaNovaLight";
+$font-light: "ProximaNovaLight";
 
 $black: #151515;
 $white: white;
@@ -13,11 +12,12 @@ $yellow: #fbd87e;
 
 $container: 0 10%;
 $space: 15px;
+$space2: $space * 2;
+$space3: $space * 3;
+$space4: $space * 4;
 
 $tablet: 767px;
 $mobile: 540px;
-
-$margin: 200px;
 
 @font-face {
   font-family: ProximaNovaBold;
@@ -46,7 +46,7 @@ $margin: 200px;
 }
 
 b {
-  font: $bold-font;
+  font: $font-bold;
 }
 
 section {
@@ -67,17 +67,17 @@ section {
     top: 50%;
     width: 40%;
     left: 40px;
-    margin: 0 $margin;
+    margin: 0 200px;
     transform: translateY(-50%);
 
     .titelpage {
-      font-family: $bold-font;
+      font-family: $font-bold;
       font-size: 60px;
       color: #fbd87e;
     }
 
     .namen {
-      font-family: $serif;
+      font-family: $font-light;
       font-size: 30px;
       color: $white;
       margin-top: 10px;
@@ -95,15 +95,29 @@ section {
   margin: $container;
 
   .question {
-    padding: $space;
     display: flex;
+    margin-bottom: $space4;
 
-    div {
-      flex: 1;
+    .text {
+      flex: 2;
+
+      &:last-child {
+        margin-left: $space4;
+      }
     }
 
     .image {
       background-color: black;
+      flex: 1;
+      max-height: 200px;
+
+      &:last-child {
+        margin-left: $space4;
+      }
+    }
+
+    &:first-of-type {
+      margin-top: $space4;
     }
   }
 }
