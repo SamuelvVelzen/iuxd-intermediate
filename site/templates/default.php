@@ -8,7 +8,6 @@
 
     <?= css([
         'assets/css/main.css',
-        'assets/css/owl.carousel.min.css',
     ]) ?>
 
     <?= js('assets/js/main.js') ?>
@@ -17,103 +16,43 @@
 </head>
 
 <body>
-    <h1 class="titel"><?= $page->title() ?></h1>
+    <section id="intro">
+        <iframe src="https://www.youtube.com/embed/83znCQhr1QM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </section>
+    <section id="whw">
+        <h1 class="title"></h1>
 
-    <div class="owl-carousel">
-        <img src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-        <img class=" middle" src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-        <img class="middle" src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-        <img class="middle" src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-        <img class="middle" src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-        <img class="middle" src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-
-        <img src="<?= image('placeholder.jpg')->url() ?>" alt="" />
-    </div>
-
-
-    <h1 class="titel-inleiding">Inleiding</h1>
-    <p class="inleiding">
-        <?= $page->inleiding() ?>
-    </p>
-
-    <div class="cardscontainer">
-        <div class="card">
-            <h1 class="titel">Waarom</h1>
-            <div class="card-content">
-                <div class="placeholder">x</div>
-                <p class="text">
-                    <?= $page->why_inleiding() ?>
-                </p>
-                <button class="actionbutton" onclick="selectSubject.showContent('why')">
-                    Verder
-                </button>
+        <div class="why question">
+            <div class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
+                incidunt veniam similique laudantium quis asperiores et quibusdam
+                quasi, illum architecto vel sed! Quos corrupti dolore saepe voluptates
+                cum minima asperiores.
+            </div>
+            <div class="image"></div>
+        </div>
+        <div class="how question">
+            <div class="image"></div>
+            <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                libero architecto laborum, corrupti expedita necessitatibus ratione ut
+                maxime nemo illo ad unde perferendis. Iure minima odit omnis maxime
+                temporibus necessitatibus.
             </div>
         </div>
-
-        <div class="card">
-            <h1 class="titel">Hoe</h1>
-            <div class="card-content">
-                <div class="placeholder">x</div>
-                <p class="text">
-                    <?= $page->how_inleiding() ?>
-                </p>
-                <button class="actionbutton" onclick="selectSubject.showContent('how')">
-                    Verder
-                </button>
+        <div class="what question">
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                voluptatibus doloribus repellat cupiditate laborum omnis
+                necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
             </div>
+            <div class="image"></div>
         </div>
-
-        <div class="card">
-            <h1 class="titel">Wat</h1>
-            <div class="card-content">
-                <div class="placeholder">x</div>
-                <p class="text">
-                    <?= $page->what_inleiding() ?>
-                </p>
-                <button class="actionbutton" onclick="selectSubject.showContent('what')">
-                    Verder
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="content-header">
-            <p class="option" id="whyChoose">Waarom</p>
-            <p class="option" id="howChoose">Hoe</p>
-            <p class="option" id="whatChoose">Wat</p>
-        </div>
-
-        <div class="content-body">
-            <div id="whyContent" class="content-body-section">
-                <?= $page->why_content() ?>
-            </div>
-            <div id="howContent" class="content-body-section">
-                <?= $page->how_content() ?>
-            </div>
-            <div id="whatContent" class="content-body-section">
-                <?= $page->what_content() ?>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-
-    <!-- Optional JavaScript -->
-    <?= js('assets/js/owl.carousel.min.js') ?>
-
-    <script>
-    $(document).ready(function() {
-        $(".owl-carousel").owlCarousel({
-            items: 2
-        });
-    });
-
-    selectSubject.init();
-    </script>
+    </section>
+    <section id="steps"></section>
 </body>
 
 </html>
