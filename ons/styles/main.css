@@ -35,7 +35,7 @@ section {
 }
 
 #whw {
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
 #whw .question {
@@ -51,7 +51,43 @@ section {
           flex: 1;
 }
 
+#whw .question .image {
+  background-color: black;
+}
+
 #steps {
   background-color: lightgrey;
+  padding: 0 10%;
+}
+
+#steps.stepscontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#steps.stepscontainer .step {
+  width: 25%;
+}
+
+#steps.stepscontainer .step h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  #steps.stepscontainer .step {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #steps.stepscontainer .step {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
