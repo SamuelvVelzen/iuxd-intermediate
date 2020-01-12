@@ -222,7 +222,17 @@ section {
   padding: 0 30px;
 }
 
-#steps.stepscontainer {
+#steps .title {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 75px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 45px;
+}
+
+#steps .stepscontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,11 +243,11 @@ section {
       flex-wrap: wrap;
 }
 
-#steps.stepscontainer .step {
+#steps .stepscontainer .step {
   max-width: 22.5%;
 }
 
-#steps.stepscontainer .step h1 {
+#steps .stepscontainer .step h1 {
   text-align: center;
 }
 

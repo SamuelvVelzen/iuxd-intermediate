@@ -233,7 +233,17 @@ section {
   background-color: $grey;
   padding: 0 $space2;
 
-  &.stepscontainer {
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+
+  .stepscontainer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

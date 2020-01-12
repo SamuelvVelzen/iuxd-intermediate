@@ -109,7 +109,9 @@
             </div>
             </div>
         </section>
-        <section id="steps" class="stepscontainer">
+        <section id="steps" >
+        <h1 class="title">Stappenplan</h1>
+        <div class='stepscontainer'>
             <div class="step">
                 <h1>1</h1>
                 <p>
@@ -148,7 +150,7 @@
                     enim minima incidunt nemo sunt necessitatibus voluptatum?
                     Necessitatibus quo sequi eligendi?
                 </p>
-            </div>
+            </div></div>
         </section>
 
         <script>
