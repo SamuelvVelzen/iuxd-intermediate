@@ -49,6 +49,66 @@ b {
   font: $font-bold;
 }
 
+//nav element
+nav {
+  position: sticky;
+  top: 0;
+  background-color: $white;
+  opacity: 1;
+
+  //container met nav
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: $space;
+    border-bottom: 1px solid $black;
+    z-index: 10;
+
+    //eerste nav kind item / logo / onze namen
+    .first {
+      margin-right: auto;
+    }
+
+    //elke nav kind item
+    .navitem {
+      list-style-type: none;
+
+      //elke nav link
+      a {
+        text-decoration: none;
+        color: $black;
+      }
+
+      //elke nav item behalve de eerste link
+      &:not(.first) {
+        padding-left: $space;
+
+        //elke nav link
+        a {
+          text-decoration: none;
+          color: $black;
+
+          //after style
+          &::after {
+            content: "";
+            display: block;
+            width: 0px;
+            height: 2px;
+            background-color: $black;
+            transition: width 0.3s;
+          }
+
+          //on hover after style
+          &:hover::after {
+            width: 100%;
+            transition: width 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
+
 section {
   min-height: 100vh;
   border-bottom: 1px solid $black;
@@ -62,6 +122,7 @@ section {
 
     object-fit: contain;
   }
+
   div {
     position: absolute;
     top: 50%;
