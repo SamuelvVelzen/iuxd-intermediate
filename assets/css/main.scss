@@ -111,7 +111,6 @@ nav {
 
 section {
   min-height: 100vh;
-  border-bottom: 1px solid $black;
 }
 
 #intro {
@@ -169,21 +168,44 @@ section {
 
   .question {
     display: flex;
-    margin-bottom: $space4;
+    margin: $space2 0;
     flex-wrap: wrap;
-
-    .title {
-      min-width: 100%;
-      text-align: left;
-      font-family: $font-bold;
-      font-size: 50px;
-      margin-bottom: $space2;
-    }
 
     .text {
       flex: 1;
 
-      &:last-child {
+      .title {
+        text-align: left;
+        font-family: $font-bold;
+        font-size: 50px;
+        margin-bottom: $space2;
+        margin-top: 0;
+      }
+
+      button {
+        background-color: #fbd87e;
+        outline: none;
+        border: none;
+        padding: $space $space2;
+        font-family: $font-bold;
+        font-size: 18px;
+        margin-top: $space2;
+      }
+
+      .hiddenContent {
+        // display: none;
+        overflow: hidden;
+
+        p {
+          margin-top: -10000px;
+          transition: margin-top 1s;
+        }
+
+        &.open {
+          p {
+            margin-top: $space2;
+          }
+        }
       }
     }
 
@@ -195,10 +217,6 @@ section {
       &:last-child {
         margin-left: $space4;
       }
-    }
-
-    &:first-of-type {
-      margin-top: $space3;
     }
   }
 }
