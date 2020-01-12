@@ -30,9 +30,8 @@ b {
 }
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  width: 100%;
   opacity: 1;
   background-color: #151515;
   opacity: 0.8;
