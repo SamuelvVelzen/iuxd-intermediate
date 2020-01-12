@@ -31,6 +31,7 @@
                 <p class="introductie">
                     <?= $page->Inleiding() ?>
                 </p>
+                <button>Lees meer</button>
             </div>
 
         </section>

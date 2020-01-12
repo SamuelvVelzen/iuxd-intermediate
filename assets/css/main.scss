@@ -82,6 +82,15 @@ section {
       color: $white;
       line-height: 24px;
     }
+
+    button {
+      background-color: $yellow;
+      outline: none;
+      border: none;
+      padding: $space $space2;
+      font-family: $fonts;
+      margin-top: $space;
+    }
   }
 }
 
