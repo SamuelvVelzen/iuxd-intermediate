@@ -67,8 +67,23 @@ section {
   line-height: 24px;
 }
 
+#intro div button {
+  background-color: #fccc30;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  margin-top: 30px;
+}
+
 #whw {
   margin: 0 14%;
+}
+
+#whw .title {
+  text-align: center;
+  margin-top: 45px;
 }
 
 #whw .question {
@@ -76,16 +91,22 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#whw .question .title {
+  min-width: 100%;
+  text-align: left;
+  font-family: "ProximaNovaBold";
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 #whw .question .text {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-}
-
-#whw .question .text:last-child {
-  margin-left: 60px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 #whw .question .image {
@@ -93,7 +114,7 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  max-height: 200px;
+  max-height: 400px;
 }
 
 #whw .question .image:last-child {
@@ -101,7 +122,7 @@ section {
 }
 
 #whw .question:first-of-type {
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 #steps {
