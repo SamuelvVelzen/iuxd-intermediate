@@ -53,15 +53,17 @@ b {
 nav {
   position: sticky;
   top: 0;
-  background-color: $white;
   opacity: 1;
+  background-color: $black;
+  opacity: 0.8;
+  z-index: 10;
 
   //container met nav
   ul {
+    margin: $container;
     display: flex;
     flex-direction: row;
     padding: $space;
-    border-bottom: 1px solid $black;
     z-index: 10;
 
     //eerste nav kind item / logo / onze namen
@@ -76,7 +78,7 @@ nav {
       //elke nav link
       a {
         text-decoration: none;
-        color: $black;
+        color: $white;
       }
 
       //elke nav item behalve de eerste link
@@ -86,7 +88,6 @@ nav {
         //elke nav link
         a {
           text-decoration: none;
-          color: $black;
 
           //after style
           &::after {
