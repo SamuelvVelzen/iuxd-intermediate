@@ -279,6 +279,7 @@ nav {
         font-family: brandon-grotesque, sans-serif;
         font-weight: 300;
         font-style: normal;
+        text-align: justify;
       }
     }
   }
@@ -287,7 +288,7 @@ nav {
 //responsive
 @media screen and (max-width: $tablet) {
   #steps {
-    &.stepscontainer {
+    .stepscontainer {
       .step {
         max-width: 45%;
       }
@@ -297,7 +298,7 @@ nav {
 
 @media screen and (max-width: $mobile) {
   #steps {
-    &.stepscontainer {
+    .stepscontainer {
       .step {
         max-width: 100%;
       }
@@ -365,7 +366,8 @@ nav {
 
 #workshop {
   background-color: $grey;
-  margin: $container;
+  margin: 0 7%;
+  padding: 0 7%;
 
   .title {
     text-align: center;

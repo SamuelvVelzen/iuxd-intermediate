@@ -276,16 +276,17 @@ nav ul .navitem:not(.first) a:hover::after {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
-  #steps.stepscontainer .step {
+  #steps .stepscontainer .step {
     max-width: 45%;
   }
 }
 
 @media screen and (max-width: 540px) {
-  #steps.stepscontainer .step {
+  #steps .stepscontainer .step {
     max-width: 100%;
   }
 }
@@ -363,7 +364,8 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #workshop {
   background-color: lightgrey;
-  margin: 0 14%;
+  margin: 0 7%;
+  padding: 0 7%;
 }
 
 #workshop .title {
