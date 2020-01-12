@@ -159,6 +159,10 @@ section {
       flex-wrap: wrap;
 }
 
+#whw .question.what .text .title {
+  margin-top: auto;
+}
+
 #whw .question .text {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -217,7 +221,7 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  max-height: 400px;
+  min-height: 400px;
 }
 
 #whw .question .image:last-child {

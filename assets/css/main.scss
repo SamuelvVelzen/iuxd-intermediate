@@ -176,6 +176,14 @@ section {
     margin: $space2 0;
     flex-wrap: wrap;
 
+    &.what {
+      .text {
+        .title {
+          margin-top: auto;
+        }
+      }
+    }
+
     .text {
       flex: 1;
       display: flex;
@@ -226,7 +234,7 @@ section {
     .image {
       background-color: black;
       flex: 1;
-      max-height: 400px;
+      min-height: 400px;
 
       &:last-child {
         margin-left: $space4;
