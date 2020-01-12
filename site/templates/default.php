@@ -11,7 +11,10 @@
     <?= css([
         'assets/css/main.css',
     ]) ?>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <?= js(['assets/js/main.js',]) ?>
 
     <title><?= $page->title() ?></title>
@@ -48,7 +51,8 @@
             </div>
 
         </section>
-        <section id="whw">
+
+        <section id="whw" data-aos="fade-up">
             <h1 id="whwTitle" class="title">Onderwerpen</h1>
 
             <div class="what question">
@@ -87,7 +91,6 @@
                     <p><?= $page->Why_content() ?></p>
                 </div>
             </div>
-            </div>
 
             <hr>
 
@@ -106,7 +109,6 @@
                 <div id="howContent" class="hiddenContent">
                     <p><?= $page->how_content() ?></p>
                 </div>
-            </div>
             </div>
         </section>
         <section id="steps">
@@ -177,7 +179,58 @@
         </section>
 
         <section id="voorbeelduitwerking">
-            <h1 id="examplecase" class="title">Wat onze workshop deelnemers zeggen</h1>
+            <h1 id="examplecase" class="title">Voorbeelduitwerking</h1>
+
+            <div class="examplecasestep">
+                <div class="text">
+                    <h1 class='title'>Stap 1</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+            </div>
+
+            <hr>
+
+            <div class="examplecasestep right">
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+
+                <div class="text">
+                    <h1 class='title'>Stap 2</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="examplecasestep">
+                <div class="text">
+                    <h1 class='title'>Stap 3</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+            </div>
+
+            <hr>
+
+            <div class="examplecasestep right">
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+
+                <div class="text">
+                    <h1 class='title'>Stap 4</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+            </div>
+
         </section>
 
         <section id="workshop">
@@ -221,6 +274,7 @@
 
         <script>
         main.init();
+        AOS.init();
         </script>
     </body>
 </body>
