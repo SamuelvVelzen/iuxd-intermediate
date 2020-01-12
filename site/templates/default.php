@@ -106,7 +106,45 @@
             </div>
         </section>
         <section id="steps" class="stepscontainer">
+            <div class="step">
+                <h1>1</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
 
+            <div class="step">
+                <h1>2</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>3</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>4</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
         </section>
 
         <script>
