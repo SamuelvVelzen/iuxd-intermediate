@@ -195,7 +195,7 @@
             <div class="examplecasestep">
                 <div class="text">
                     <h1 class='title'>Stap 1</h1>
-                    <p><?= $page->What_inleiding() ?></p>
+                    <p>Hier hebben we de eigenschappen van Dr. pepper onderzocht. Dit waren deze 4 woorden: spannend, vol humor, origineel & authenthiek. We hebben de woorden gekoppeld aan een feestdag, zoals Coca Cola met kerst heeft gedaan. We hebben Halloween gekozen, omdat de eigenschappen perfect overeenkomen met deze spannende feestdag. Zo krijgen we een consistent verhaal en een volledige uitwerking.</p>
                 </div>
 
                 <?php if($image = $page->image('mock-up-wat.png')): ?>
@@ -217,7 +217,7 @@
 
                 <div class="text">
                     <h1 class='title'>Stap 2</h1>
-                    <p><?= $page->What_inleiding() ?></p>
+                    <p>Het comfort hebben we naar een digitaler level getild. De doelgroep van Dr. Pepper is in het bezit van een smartphone en zo kan de gebruiker makkelijk bij alle nieuwe trends en ontwikkelingen komen. Snapchat is een bedrijf die gebruik maakt van nieuwe technologieën als augmented reality en stickers. We willen spannende Snapchat filters koppelen aan Dr. Pepper, zodat dit merk via deze technologie meer bekend wordt. De gebruikers voelen zich thuis met Snapchat en het gebruik is ook zeer gemakkelijk en zo dus ook comfortabel.</p>
                 </div>
             </div>
 
@@ -226,7 +226,7 @@
             <div class="examplecasestep">
                 <div class="text">
                     <h1 class='title'>Stap 3</h1>
-                    <p><?= $page->What_inleiding() ?></p>
+                    <p>We hebben ervoor gekozen om gebruik te maken van een vending machine. In de vending machine zit niet het blikje, maar een mystery box. In de mysterybox zit een van de smaken van dr. pepper en deze box is visueel makkelijk aan te passen bij een feestdag. In deze dozen zitten speciale snapchat filters verstopt. Het is elke keer een verassing wat erin zit. Dit komt terug op de spannende verhaallijn van Dr. Pepper. Op deze manier kan Dr. Pepper op elk evenement worden ingezet. Doordat vending machines heel mobiel zijn, kan je ze overal plaatsen.</p>
                 </div>
 
                 <?php if($image = $page->image('mock-up-wat.png')): ?>
@@ -243,7 +243,7 @@
 
                 <div class="text">
                     <h1 class='title'>Stap 4</h1>
-                    <p><?= $page->What_inleiding() ?></p>
+                    <p>Ook voor dr. Pepper is het van belang om duurzaam te zijn. Recyclen stimuleren is niet makkelijk, daarom hebben we inleverpunten voor de blikjes bedacht. Het zijn niet zomaar inleverpunten, je krijgt er namelijk wel iets voor terug. Elke keer als een blikje ingeleverd wordt, kan je een code krijgen voor een nieuwe Snapchatfilter. Deze code open je met je Snapchat camera en zo krijg je de filter snel en gemakkelijk binnen. Zo is recyclen leuk en goed voor het milieu.  </p>
                 </div>
             </div>
 
