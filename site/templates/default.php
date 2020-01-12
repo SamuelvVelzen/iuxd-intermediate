@@ -113,6 +113,9 @@
             <h1 class="title">Stappenplan</h1>
             <div class='stepscontainer'>
                 <div class="step">
+                    <?php if($image = $page->image('brandexperience-icon.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
                     <h1>1</h1>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
@@ -123,6 +126,9 @@
                 </div>
 
                 <div class="step">
+                    <?php if($image = $page->image('flexibiliteit-icon.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
                     <h1>2</h1>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
@@ -133,6 +139,9 @@
                 </div>
 
                 <div class="step">
+                    <?php if($image = $page->image('comfort-icon.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
                     <h1>3</h1>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
@@ -143,6 +152,9 @@
                 </div>
 
                 <div class="step">
+                    <?php if($image = $page->image('duurzaamheid-icon.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
                     <h1>4</h1>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
