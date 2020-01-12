@@ -126,7 +126,8 @@ section {
   line-height: 24px;
 }
 
-#intro div button {
+#intro div .btn {
+  display: inline-block;
   background-color: #fbd87e;
   outline: none;
   border: none;
@@ -269,5 +270,88 @@ section {
   #steps.stepscontainer .step {
     max-width: 100%;
   }
+}
+
+#workshop {
+  margin: 0 14%;
+}
+
+#workshop .title {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 75px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 45px;
+}
+
+#workshop .reviewsgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#workshop .reviewsgroup .review {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+}
+
+#workshop .reviewsgroup .review .quote {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#workshop .reviewsgroup .review .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#workshop .reviewsgroup .review .info .picture {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: #151515;
+  border-radius: 100%;
+}
+
+#workshop .reviewsgroup .review .info .personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  margin-left: 15px;
+}
+
+#workshop .reviewsgroup .review .info .personal .name {
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

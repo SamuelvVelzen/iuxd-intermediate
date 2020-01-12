@@ -146,7 +146,8 @@ section {
       line-height: 24px;
     }
 
-    button {
+    .btn {
+      display: inline-block;
       background-color: #fbd87e;
       outline: none;
       border: none;
@@ -280,6 +281,64 @@ section {
     &.stepscontainer {
       .step {
         max-width: 100%;
+      }
+    }
+  }
+}
+
+#workshop {
+  margin: $container;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+
+  .reviewsgroup {
+    display: flex;
+    flex-direction: row;
+
+    .review {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: $space;
+
+      .quote {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 18px;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: row;
+
+        .picture {
+          display: block;
+          height: 100px;
+          width: 100px;
+          background-color: $black;
+          border-radius: 100%;
+        }
+
+        .personal {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: flex-end;
+          margin-left: $space;
+
+          .name {
+            font-size: 18px;
+          }
+        }
       }
     }
   }
