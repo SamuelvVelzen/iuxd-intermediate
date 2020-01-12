@@ -198,7 +198,7 @@
                     <p><?= $page->What_inleiding() ?></p>
                 </div>
 
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('stap-1.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
             </div>
@@ -229,7 +229,7 @@
                     <p><?= $page->What_inleiding() ?></p>
                 </div>
 
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('stap-3.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
             </div>
@@ -237,7 +237,7 @@
             <hr>
 
             <div class="examplecasestep right">
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('stap-4.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
 
