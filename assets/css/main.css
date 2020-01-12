@@ -139,6 +139,22 @@ nav ul .navitem:not(.first) a:hover::after {
   text-decoration: none;
 }
 
+#intro div .btn::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #151515;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+#intro div .btn:hover::after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
 #whw {
   margin: 0 14%;
 }
@@ -200,6 +216,22 @@ nav ul .navitem:not(.first) a:hover::after {
   font-size: 18px;
   margin-top: auto;
   width: 153px;
+}
+
+#whw .question .text button::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #151515;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+#whw .question .text button:hover::after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
 }
 
 #whw .question .hiddenContent {
@@ -276,7 +308,6 @@ nav ul .navitem:not(.first) a:hover::after {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
   font-style: normal;
-  text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
