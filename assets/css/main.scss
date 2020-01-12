@@ -460,6 +460,7 @@ nav {
 }
 
 #partners {
+  display: none;
   margin: $container;
 
   .title {
@@ -474,6 +475,7 @@ nav {
 }
 
 #footer {
+  display: none;
   background-color: $black;
   padding: $space2;
 
