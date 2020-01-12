@@ -107,8 +107,7 @@ section {
   position: absolute;
   top: 50%;
   width: 40%;
-  left: 40px;
-  margin: 0 200px;
+  margin: 0 14%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -128,7 +127,7 @@ section {
 }
 
 #whw {
-  margin: 0 10%;
+  margin: 0 14%;
 }
 
 #whw .question {
@@ -166,7 +165,7 @@ section {
 
 #steps {
   background-color: lightgrey;
-  padding: 0 10%;
+  padding: 0 14%;
 }
 
 #steps.stepscontainer {
