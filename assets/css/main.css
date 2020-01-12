@@ -256,6 +256,11 @@ section {
   max-width: 22.5%;
 }
 
+#steps .stepscontainer .step .stepicon {
+  max-width: 10%;
+  margin: 0 auto;
+}
+
 #steps .stepscontainer .step h1 {
   text-align: center;
 }
