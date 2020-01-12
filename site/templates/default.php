@@ -18,6 +18,17 @@
 <body>
 
     <body>
+        <nav>
+            <ul>
+                <li class="navitem first"><a href="#">Gabriel en Sam</a></li>
+                <li class="navitem"><a href="#">sectie</a></li>
+                <li class="navitem"><a href="#">sectie</a></li>
+                <li class="navitem"><a href="#">sectie</a></li>
+                <li class="navitem"><a href="#">sectie</a></li>
+            </ul>
+        </nav>
+
+
         <section id="intro">
             <?php foreach($page->videos() as $video): ?>
             <video width="100%" height="100vh" autoplay muted loop>
