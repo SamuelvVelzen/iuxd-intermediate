@@ -99,7 +99,7 @@
                         <p><?= $page->how_content() ?></p>
                     </div>
                 </div>
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('mock-up-hoe.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
             </div>
