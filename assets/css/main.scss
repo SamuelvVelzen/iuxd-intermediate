@@ -88,8 +88,9 @@ section {
       outline: none;
       border: none;
       padding: $space $space2;
-      font-family: $fonts;
-      margin-top: $space;
+      font-family: $font-bold;
+      font-size: 18px;
+      margin-top: $space2;
     }
   }
 }
