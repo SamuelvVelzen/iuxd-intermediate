@@ -198,7 +198,7 @@
                     <p>Hier hebben we de eigenschappen van Dr. pepper onderzocht. Dit waren deze 4 woorden: spannend, vol humor, origineel & authenthiek. We hebben de woorden gekoppeld aan een feestdag, zoals Coca Cola met kerst heeft gedaan. We hebben Halloween gekozen, omdat de eigenschappen perfect overeenkomen met deze spannende feestdag. Zo krijgen we een consistent verhaal en een volledige uitwerking.</p>
                 </div>
 
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('stap-1.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
             </div>
@@ -229,7 +229,7 @@
                     <p>We hebben ervoor gekozen om gebruik te maken van een vending machine. In de vending machine zit niet het blikje, maar een mystery box. In de mysterybox zit een van de smaken van dr. pepper en deze box is visueel makkelijk aan te passen bij een feestdag. In deze dozen zitten speciale snapchat filters verstopt. Het is elke keer een verassing wat erin zit. Dit komt terug op de spannende verhaallijn van Dr. Pepper. Op deze manier kan Dr. Pepper op elk evenement worden ingezet. Doordat vending machines heel mobiel zijn, kan je ze overal plaatsen.</p>
                 </div>
 
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('stap-3.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
             </div>
@@ -237,7 +237,7 @@
             <hr>
 
             <div class="examplecasestep right">
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('stap-4.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
 
