@@ -58,13 +58,15 @@
 
                     <button id="what" class="button">Lees meer</button>
 
-                    <div id="whatContent" class="hiddenContent">
-                        <p><?= $page->What_content() ?></p>
-                    </div>
                 </div>
+
                 <?php if($image = $page->image('mock-up-wat.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
+
+                <div id="whatContent" class="hiddenContent">
+                    <p><?= $page->What_content() ?></p>
+                </div>
             </div>
 
             <hr>
@@ -75,14 +77,15 @@
                     <p><?= $page->Why_inleiding() ?></p>
 
                     <button id="why" class="button">Lees meer</button>
-
-                    <div id="whyContent" class="hiddenContent">
-                        <p><?= $page->Why_content() ?></p>
-                    </div>
                 </div>
+
                 <?php if($image = $page->image('workspace-mockup-waarom.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
+
+                <div id="whyContent" class="hiddenContent">
+                    <p><?= $page->Why_content() ?></p>
+                </div>
             </div>
             </div>
 
@@ -94,14 +97,16 @@
                     <p><?= $page->How_inleiding() ?></p>
 
                     <button id="how" class="button">Lees meer</button>
-
-                    <div id="howContent" class="hiddenContent">
-                        <p><?= $page->how_content() ?></p>
-                    </div>
                 </div>
+
                 <?php if($image = $page->image('mock-up-hoe.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
+
+
+                <div id="howContent" class="hiddenContent">
+                    <p><?= $page->how_content() ?></p>
+                </div>
             </div>
             </div>
         </section>
