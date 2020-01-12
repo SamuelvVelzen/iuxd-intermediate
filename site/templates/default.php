@@ -28,7 +28,6 @@
 
             <div>
                 <p class="titelpage">Visual Branding</p>
-                <p class="namen">Door Samuel & Gabrielle</p>
                 <p class="introductie">
                     <?= $page->Inleiding() ?>
                 </p>

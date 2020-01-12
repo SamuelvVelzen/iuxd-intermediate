@@ -8,7 +8,7 @@ $font-light: "ProximaNovaLight";
 $black: #151515;
 $white: white;
 $grey: lightgrey;
-$yellow: #fbd87e;
+$yellow: #fccc30;
 
 $container: 0 10%;
 $space: 15px;
@@ -71,22 +71,17 @@ section {
     transform: translateY(-50%);
 
     .titelpage {
-      font-family: $font-bold;
-      font-size: 60px;
+      font-family: $fonts;
+      font-size: 70px;
       color: #fbd87e;
+      padding-bottom: 20px;
     }
 
-    .namen {
-      font-family: $font-light;
-      font-size: 30px;
-      color: $white;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
     .introductie {
-      font-family: $fonts;
+      font-family: $font-light;
       font-size: 18px;
       color: $white;
+      line-height: 24px;
     }
   }
 }
