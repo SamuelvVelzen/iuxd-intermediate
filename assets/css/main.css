@@ -29,6 +29,65 @@ b {
   font: "ProximaNovaBold";
 }
 
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  background-color: #151515;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px;
+  z-index: 10;
+}
+
+nav ul .first {
+  margin-right: auto;
+}
+
+nav ul .navitem {
+  list-style-type: none;
+}
+
+nav ul .navitem a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul .navitem:not(.first) {
+  padding-left: 15px;
+}
+
+nav ul .navitem:not(.first) a {
+  text-decoration: none;
+}
+
+nav ul .navitem:not(.first) a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #151515;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+nav ul .navitem:not(.first) a:hover::after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
 section {
   min-height: 100vh;
   border-bottom: 1px solid #151515;
