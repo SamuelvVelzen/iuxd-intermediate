@@ -10,7 +10,7 @@ $white: white;
 $grey: lightgrey;
 $yellow: #fccc30;
 
-$container: 0 10%;
+$container: 0 14%;
 $space: 15px;
 $space2: $space * 2;
 $space3: $space * 3;
@@ -66,8 +66,7 @@ section {
     position: absolute;
     top: 50%;
     width: 40%;
-    left: 40px;
-    margin: 0 200px;
+    margin: $container;
     transform: translateY(-50%);
 
     .titelpage {
