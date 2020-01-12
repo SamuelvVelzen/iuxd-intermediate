@@ -29,6 +29,10 @@ b {
   font: "ProximaNovaBold";
 }
 
+hr {
+  border: 1px solid lightgrey;
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -76,7 +80,7 @@ nav ul .navitem:not(.first) a::after {
   display: block;
   width: 0px;
   height: 2px;
-  background-color: #151515;
+  background-color: white;
   -webkit-transition: width 0.3s;
   transition: width 0.3s;
 }
@@ -135,6 +139,7 @@ section {
   font-family: "ProximaNovaBold";
   font-size: 18px;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 #whw {
@@ -229,6 +234,7 @@ section {
 #steps {
   background-color: lightgrey;
   padding: 0 30px;
+  padding-bottom: 30px;
 }
 
 #steps .title {
@@ -257,8 +263,12 @@ section {
 }
 
 #steps .stepscontainer .step .stepicon {
-  max-width: 10%;
+  display: block;
   margin: 0 auto;
+  background-color: #151515;
+  width: 100px;
+  max-height: 100px;
+  margin-bottom: 15px;
 }
 
 #steps .stepscontainer .step h1 {
@@ -275,6 +285,86 @@ section {
   #steps.stepscontainer .step {
     max-width: 100%;
   }
+}
+
+#voorbeelduitwerking {
+  margin: 0 14%;
+}
+
+#voorbeelduitwerking .title {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 75px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 45px;
+}
+
+#voorbeelduitwerking .examplecasestep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#voorbeelduitwerking .examplecasestep.right .text {
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+#voorbeelduitwerking .examplecasestep .text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 15px;
+}
+
+#voorbeelduitwerking .examplecasestep .text .title {
+  text-align: left;
+  font-family: "ProximaNovaBold";
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: auto;
+}
+
+#voorbeelduitwerking .examplecasestep .text p {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#voorbeelduitwerking .examplecasestep .text button {
+  background-color: #fbd87e;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  margin-top: auto;
+  width: 153px;
+}
+
+#voorbeelduitwerking .examplecasestep .image {
+  background-color: black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-height: 400px;
+}
+
+#voorbeelduitwerking .examplecasestep .image:last-child {
+  margin-left: 60px;
 }
 
 #workshop {
@@ -320,6 +410,7 @@ section {
   font-weight: 800;
   font-style: normal;
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
 #workshop .reviewsgroup .review .info {
@@ -330,6 +421,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: auto;
 }
 
 #workshop .reviewsgroup .review .info .picture {

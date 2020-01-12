@@ -11,7 +11,10 @@
     <?= css([
         'assets/css/main.css',
     ]) ?>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <?= js(['assets/js/main.js',]) ?>
 
     <title><?= $page->title() ?></title>
@@ -23,10 +26,10 @@
         <nav>
             <ul>
                 <li class="navitem first"><a href="#">Gabriel en Sam</a></li>
-                <li class="navitem"><a href="#">Wat</a></li>
-                <li class="navitem"><a href="#">Waarom</a></li>
-                <li class="navitem"><a href="#">Hoe</a></li>
-                <li class="navitem"><a href="#">Voorbeeld</a></li>
+                <li class="navitem"><a class="clickableNav" href="#whwTitle">Onderwerpen</a></li>
+                <li class="navitem"><a class="clickableNav" href="#stappenplan">Stappenplan</a></li>
+                <li class="navitem"><a class="clickableNav" href="#examplecase">Voorbeelduitwerking</a></li>
+                <li class="navitem"><a class="clickableNav" href="#workshop">Workshop reviews</a></li>
             </ul>
         </nav>
 
@@ -48,7 +51,8 @@
             </div>
 
         </section>
-        <section id="whw">
+
+        <section id="whw" data-aos="fade-up">
             <h1 id="whwTitle" class="title">Onderwerpen</h1>
 
             <div class="what question">
@@ -87,7 +91,6 @@
                     <p><?= $page->Why_content() ?></p>
                 </div>
             </div>
-            </div>
 
             <hr>
 
@@ -107,10 +110,9 @@
                     <p><?= $page->how_content() ?></p>
                 </div>
             </div>
-            </div>
         </section>
         <section id="steps">
-            <h1 class="title">Stappenplan</h1>
+            <h1 id="stappenplan" class="title">Stappenplan</h1>
             <div class='stepscontainer'>
                 <div class="step">
                     <?php if($image = $page->image('brandexperience-icon.png')): ?>
@@ -161,8 +163,63 @@
             </div>
         </section>
 
+        <section id="voorbeelduitwerking">
+            <h1 id="examplecase" class="title">Voorbeelduitwerking</h1>
+
+            <div class="examplecasestep">
+                <div class="text">
+                    <h1 class='title'>Stap 1</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+            </div>
+
+            <hr>
+
+            <div class="examplecasestep right">
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+
+                <div class="text">
+                    <h1 class='title'>Stap 2</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="examplecasestep">
+                <div class="text">
+                    <h1 class='title'>Stap 3</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+            </div>
+
+            <hr>
+
+            <div class="examplecasestep right">
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php endif ?>
+
+                <div class="text">
+                    <h1 class='title'>Stap 4</h1>
+                    <p><?= $page->What_inleiding() ?></p>
+                </div>
+            </div>
+
+        </section>
+
         <section id="workshop">
-            <h1 class="title">Wat onze workshop deelnemers zeggen</h1>
+            <h1 id="workshop" class="title">Wat onze workshop deelnemers zeggen</h1>
 
             <div class="reviewsgroup">
                 <div class="review">
@@ -202,6 +259,7 @@
 
         <script>
         main.init();
+        AOS.init();
         </script>
     </body>
 </body>
