@@ -118,10 +118,16 @@
                     <?php endif ?>
                     <h1>1</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                        unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                        enim minima incidunt nemo sunt necessitatibus voluptatum?
-                        Necessitatibus quo sequi eligendi?
+                    Brand experience
+                    Sterke merken weten hoe belangrijk merkbeleving is. 
+                    Als mensen een positieve associatie bij je bedrijf hebben, 
+                    zullen zij namelijk eerder tot een aankoop overgaan – zowel online als offline. 
+                    Het creëren van de juiste brand experience is daarom altijd het uitgangspunt van visual branding, 
+                    zeker bij fysieke contactmomenten. Van een winkelbezoek tot een merkactivatie op een evenement, 
+                    het opwekken van een wow-reactie is altijd het doel. Zou een merk als Nike genoegen nemen met minder? 
+                    Natuurlijk niet. Daarom moet elke uiting tot in de puntjes (of pixels) verzorgd zijn. Dat mega-billboard, 
+                    die visuals in de brand store – alles moet Nike ademen. Samen vertellen deze uitingen één consistent verhaal. 
+                    Alleen zo creëer je als merk het juiste gevoel bij je doelgroep.
                     </p>
                 </div>
 
