@@ -8,7 +8,7 @@ $font-light: "ProximaNovaLight";
 $black: #151515;
 $white: white;
 $grey: lightgrey;
-$yellow: #fccc30;
+$yellow: #fbd87e;
 
 $container: 0 14%;
 $space: 15px;
@@ -133,7 +133,7 @@ section {
     .titelpage {
       font-family: $fonts;
       font-size: 70px;
-      color: #fbd87e;
+      color: $yellow;
       padding-bottom: 20px;
     }
 
