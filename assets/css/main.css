@@ -481,6 +481,7 @@ nav ul .navitem:not(.first) a:hover::after {
 }
 
 #partners {
+  display: none;
   margin: 0 14%;
 }
 
@@ -495,6 +496,7 @@ nav ul .navitem:not(.first) a:hover::after {
 }
 
 #footer {
+  display: none;
   background-color: #151515;
   padding: 30px;
 }
