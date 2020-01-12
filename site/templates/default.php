@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -34,11 +35,13 @@
 
 
         <section id="intro">
-            <?php foreach($page->videos() as $video): ?>
+            <?php foreach($page->videos() as $video):?>
+            <?php if($video->id() == 'home/achtergrondfilm.mp4'):?>
             <video width="100%" height="100vh" autoplay muted loop>
                 <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
                 Your browser does not support the video tag.
             </video>
+            <?php endif ?>
             <?php endforeach ?>
 
             <div>
@@ -137,7 +140,15 @@
                     <?php endif ?>
                     <h1>2. Comfort</h1>
                     <p>
-                    Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven. Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat online gedeeld.
+                        Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een
+                        karakterloos decor, is niet meer van deze tijd. Als klanten zich wél thuis voelen in je winkel,
+                        dan blijven ze langer en dit zorgt voor een betere omzet. Een winkel moet tegenwoordig zo in
+                        elkaar zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een klant moet een
+                        foto ervan kunnen maken en het zo kunnen delen dat er weinig bewerking nodig is. Comfort staat
+                        niet alleen voor de inrichting maar ook voor gebruiksgemak. Iedereen heeft een Smartphone en
+                        veel gebruiken programma’s als Snapchat & Instagram. Deze programma’s zijn bekend en dus
+                        makkelijk in te zetten voor bedrijven. Chocomel heeft dit bijv. ingezet bij de Chocomel letters.
+                        Deze letters worden via Snapchat online gedeeld
                     </p>
                 </div>
 
@@ -164,9 +175,14 @@
                     <?php endif ?>
                     <h1>4. Duurzaamheid</h1>
                     <p>
-                    Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume, waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
-                    Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke imagoschade oplopen als je erg milieuonvriendelijk produceert
-
+                        Elk global brand, van Coca Cola tot Apple, streeft naar een zo milieuvriendelijk mogelijke
+                        productieketen. Materiaalkeuze is hier ook van belang, er zijn allerlei materialen beschikbaar
+                        die je ecologische afdruk verminderen. Denk aan opvouwbare textielen die zorgen voor minder
+                        volume, waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
+                        Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met
+                        de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het
+                        nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke
+                        imagoschade oplopen als je erg milieuonvriendelijk produceert.
 
                     </p>
                 </div>
@@ -190,9 +206,14 @@
             <hr>
 
             <div class="examplecasestep right">
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
-                <img src="<?= $image->url() ?>" alt="" class='image'>
+                <?php foreach($page->videos() as $video):?>
+                <?php if($video->id() == 'home/drpeppercommercial.mp4'):?>
+                <video class="image" width="100%" height="100%" autoplay muted loop>
+                    <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                    Your browser does not support the video tag.
+                </video>
                 <?php endif ?>
+                <?php endforeach ?>
 
                 <div class="text">
                     <h1 class='title'>Stap 2</h1>
