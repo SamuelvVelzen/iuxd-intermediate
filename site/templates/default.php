@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+xs
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -117,7 +117,7 @@
             <h1 id="stappenplan" class="title">Stappenplan</h1>
             <div class='stepscontainer'>
                 <div class="step">
-                    <?php if($image = $page->image('brandexperience-icon-cirkle.png')): ?>
+                    <?php if($image = $page->image('brandexperience-icon-cirkel.png')): ?>
                     <img src="<?= $image->url() ?>" alt="" class='stepicon'>
                     <?php endif ?>
                     <h1>1. Brand experience</h1>
@@ -133,7 +133,7 @@
                 </div>
 
                 <div class="step">
-                    <?php if($image = $page->image('flexibiliteit-icon-cirkle.png')): ?>
+                    <?php if($image = $page->image('flexibiliteit-icon-cirkel.png')): ?>
                     <img src="<?= $image->url() ?>" alt="" class='stepicon'>
                     <?php endif ?>
                     <h1>2. Comfort</h1>
@@ -151,7 +151,7 @@
                 </div>
 
                 <div class="step">
-                    <?php if($image = $page->image('comfort-icon-cirkle.png')): ?>
+                    <?php if($image = $page->image('comfort-icon-cirkel.png')): ?>
                     <img src="<?= $image->url() ?>" alt="" class='stepicon'>
                     <?php endif ?>
                     <h1>3. Flexibiliteit</h1>
@@ -168,7 +168,7 @@
                 </div>
 
                 <div class="step">
-                    <?php if($image = $page->image('duurzaamheid-icon-cirkle.png')): ?>
+                    <?php if($image = $page->image('duurzaamheid-icon-cirkel.png')): ?>
                     <img src="<?= $image->url() ?>" alt="" class='stepicon'>
                     <?php endif ?>
                     <h1>4. Duurzaamheid</h1>
