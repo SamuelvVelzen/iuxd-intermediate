@@ -52,11 +52,11 @@
             <div class="what question">
             <h1 class='title'>Wat</h1>
                 <div class="text">
-                <?= $page->Why_inleiding() ?>
+                    <?= $page->Why_inleiding() ?>
                 </div>
                 <?php if($image = $page->image('mock-up-wat.png')): ?>
-<img src="<?= $image->url() ?>" alt=""class='image'>
-<?php endif ?>
+                    <img src="<?= $image->url() ?>" alt=""class='image'>
+                <?php endif ?>
             </div>
             <div class="waarom question">
                 <div class="image"></div>
