@@ -21,10 +21,10 @@
         <nav>
             <ul>
                 <li class="navitem first"><a href="#">Gabriel en Sam</a></li>
-                <li class="navitem"><a href="#">sectie</a></li>
-                <li class="navitem"><a href="#">sectie</a></li>
-                <li class="navitem"><a href="#">sectie</a></li>
-                <li class="navitem"><a href="#">sectie</a></li>
+                <li class="navitem"><a href="#">Wat</a></li>
+                <li class="navitem"><a href="#">Waarom</a></li>
+                <li class="navitem"><a href="#">Hoe</a></li>
+                <li class="navitem"><a href="#">Voorbeeld</a></li>
             </ul>
         </nav>
 
