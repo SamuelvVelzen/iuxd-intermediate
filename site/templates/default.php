@@ -52,7 +52,8 @@
 
         </section>
 
-        <section id="whw" data-aos="fade-up">
+        <!-- <section id="whw" data-aos="fade-up"> -->
+        <section id="whw">
             <h1 id="whwTitle" class="title">Onderwerpen</h1>
 
             <div class="what question">
