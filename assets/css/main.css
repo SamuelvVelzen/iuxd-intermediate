@@ -221,7 +221,7 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  min-height: 400px;
+  max-height: 400px;
 }
 
 #whw .question .image:last-child {

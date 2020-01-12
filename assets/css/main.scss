@@ -234,7 +234,7 @@ section {
     .image {
       background-color: black;
       flex: 1;
-      min-height: 400px;
+      max-height: 400px;
 
       &:last-child {
         margin-left: $space4;
