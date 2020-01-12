@@ -12,7 +12,7 @@
         'assets/css/main.css',
     ]) ?>
 
-    <?= js('assets/js/main.js') ?>
+    <?= js(['assets/js/main.js',]) ?>
 
     <title><?= $page->title() ?></title>
 </head>
@@ -90,7 +90,7 @@
 
             <div class="Hoe question">
                 <div class="text">
-                    <h1 class='title'>Hoe - Stappenplan</h1>
+                    <h1 class='title'>Hoe </h1>
                     <p><?= $page->How_inleiding() ?></p>
 
                     <button id="how" class="button">Lees meer</button>
@@ -99,13 +99,14 @@
                         <p><?= $page->how_content() ?></p>
                     </div>
                 </div>
-                <?php if($image = $page->image('mock-up-wat.png')): ?>
+                <?php if($image = $page->image('mock-up-hoe.png')): ?>
                 <img src="<?= $image->url() ?>" alt="" class='image'>
                 <?php endif ?>
             </div>
             </div>
         </section>
         <section id="steps" class="stepscontainer">
+            <div class='step' ></div>
 
         </section>
 

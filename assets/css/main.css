@@ -142,8 +142,12 @@ section {
 
 #whw .title {
   text-align: center;
-  margin-top: 45px;
-  font-family: "ProximaNovaBold";
+  margin-top: 60px;
+  margin-bottom: 75px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 45px;
 }
 
 #whw .question {
@@ -164,7 +168,7 @@ section {
 #whw .question .text .title {
   text-align: left;
   font-family: "ProximaNovaBold";
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 30px;
   margin-top: 0;
 }
