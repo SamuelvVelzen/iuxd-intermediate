@@ -278,13 +278,13 @@ nav ul .navitem:not(.first) a:hover::after {
 }
 
 @media screen and (max-width: 767px) {
-  #steps.stepscontainer .step {
+  #steps .stepscontainer .step {
     max-width: 45%;
   }
 }
 
 @media screen and (max-width: 540px) {
-  #steps.stepscontainer .step {
+  #steps .stepscontainer .step {
     max-width: 100%;
   }
 }

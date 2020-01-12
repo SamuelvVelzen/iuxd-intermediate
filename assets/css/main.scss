@@ -286,7 +286,7 @@ nav {
 //responsive
 @media screen and (max-width: $tablet) {
   #steps {
-    &.stepscontainer {
+    .stepscontainer {
       .step {
         max-width: 45%;
       }
@@ -296,7 +296,7 @@ nav {
 
 @media screen and (max-width: $mobile) {
   #steps {
-    &.stepscontainer {
+    .stepscontainer {
       .step {
         max-width: 100%;
       }
