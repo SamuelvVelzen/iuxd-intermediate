@@ -1,14 +1,27 @@
 var main = (function() {
   //variables
   var uiStrings = {
+    navRecognizer: "clickableNav",
     chooseT: "what",
     chooseW: "why",
     chooseH: "how"
   };
 
   //functions
-  var addEvents, _checkContent;
+  var addEvents, _offsetAnchor, _checkContent;
 
+  //nav
+  _offsetAnchor = function() {
+    if (location.hash.length !== 0) {
+      window.scrollTo({
+        top: window.scrollY - 60,
+        left: window.scrollX,
+        behavior: "smooth"
+      });
+    }
+  };
+
+  //cards
   _checkContent = function(el) {
     var content = document.getElementById(el.id + "Content");
 
@@ -20,6 +33,18 @@ var main = (function() {
   };
 
   addEvents = function() {
+    //nav
+    var elArr = document.getElementsByClassName(uiStrings.navRecognizer);
+
+    for (var i = 0; i < elArr.length; i++) {
+      elArr[i].addEventListener("click", () => {
+        window.setTimeout(function() {
+          _offsetAnchor();
+        }, 0);
+      });
+    }
+
+    //cards
     var elT = document.getElementById(uiStrings.chooseT),
       elW = document.getElementById(uiStrings.chooseW),
       elH = document.getElementById(uiStrings.chooseH);
@@ -30,6 +55,11 @@ var main = (function() {
   };
 
   return {
-    init: addEvents
+    init: function() {
+      addEvents();
+
+      // Set the offset when entering page with hash present in the url
+      window.setTimeout(_offsetAnchor, 0);
+    }
   };
 })();
