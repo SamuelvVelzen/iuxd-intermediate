@@ -50,6 +50,10 @@ b {
   font: $font-bold;
 }
 
+hr {
+  border: 1px solid $grey;
+}
+
 //nav element
 nav {
   position: fixed;
@@ -95,7 +99,7 @@ nav {
             display: block;
             width: 0px;
             height: 2px;
-            background-color: $black;
+            background-color: $white;
             transition: width 0.3s;
           }
 
@@ -148,13 +152,14 @@ section {
 
     .btn {
       display: inline-block;
-      background-color: #fbd87e;
+      background-color: $yellow;
       outline: none;
       border: none;
       padding: $space $space2;
       font-family: $font-bold;
       font-size: 18px;
       margin-top: $space2;
+      text-decoration: none;
     }
   }
 }
@@ -199,7 +204,7 @@ section {
       }
 
       button {
-        background-color: #fbd87e;
+        background-color: $yellow;
         outline: none;
         border: none;
         padding: $space $space2;
@@ -292,6 +297,75 @@ section {
     &.stepscontainer {
       .step {
         max-width: 100%;
+      }
+    }
+  }
+}
+
+#voorbeelduitwerking {
+  margin: $container;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+  .examplecasestep {
+    display: flex;
+    margin: $space2 0;
+    flex-wrap: wrap;
+
+    &.right {
+      .text {
+        padding-left: $space;
+        padding-right: 0;
+      }
+    }
+
+    .text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding-right: $space;
+
+      .title {
+        text-align: left;
+        font-family: $font-bold;
+        font-size: 35px;
+        margin-bottom: $space2;
+        margin-top: auto;
+      }
+
+      p {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+      }
+
+      button {
+        background-color: #fbd87e;
+        outline: none;
+        border: none;
+        padding: $space $space2;
+        font-family: $font-bold;
+        font-size: 18px;
+        margin-top: auto;
+        width: 153px;
+      }
+    }
+
+    .image {
+      background-color: black;
+      flex: 1;
+      max-height: 400px;
+
+      &:last-child {
+        margin-left: $space4;
       }
     }
   }
