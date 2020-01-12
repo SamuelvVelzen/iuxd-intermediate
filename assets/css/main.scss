@@ -88,22 +88,35 @@ section {
 #whw {
   margin: $container;
 
+  .title {
+    text-align: center;
+    margin-top: $space3;
+  }
+
   .question {
     display: flex;
     margin-bottom: $space4;
+    flex-wrap: wrap;
+
+    .title {
+      min-width: 100%;
+      text-align: left;
+      font-family: $font-bold;
+      font-size: 50px;
+      margin-bottom: $space2;
+    }
 
     .text {
-      flex: 2;
+      flex: 1;
 
       &:last-child {
-        margin-left: $space4;
       }
     }
 
     .image {
       background-color: black;
       flex: 1;
-      max-height: 200px;
+      max-height: 400px;
 
       &:last-child {
         margin-left: $space4;
@@ -111,7 +124,7 @@ section {
     }
 
     &:first-of-type {
-      margin-top: $space4;
+      margin-top: $space3;
     }
   }
 }

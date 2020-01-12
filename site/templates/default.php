@@ -35,77 +35,54 @@
 
         </section>
         <section id="whw">
-            <h1 class="title"></h1>
+            <h1 class="title">Onderwerpen</h1>
 
-            <div class="why question">
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-                </div>
-                <div class="image"></div>
-            </div>
-            <div class="how question">
-                <div class="image"></div>
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
-                    voluptatibus doloribus repellat cupiditate laborum omnis
-                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
-                </div>
-            </div>
             <div class="what question">
+            <h1 class='title'>Wat</h1>
+                <div class="text">
+                <?= $page->Why_inleiding() ?>
+                </div>
+                <?php if($image = $page->image('mock-up-wat.png')): ?>
+<img src="<?= $image->url() ?>" alt=""class='image'>
+<?php endif ?>
+            </div>
+            <div class="waarom question">
+                <div class="image"></div>
+                <h1 class='title'>Waarom</h1>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+                </div>
+            </div>
+            <div class="Hoe question">
+            <h1 class='title'>Hoe - Stappenplan</h1>
                 <div class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
                     laborum corporis quibusdam in ea soluta inventore! Molestiae autem
@@ -141,45 +118,7 @@
             </div>
         </section>
         <section id="steps" class="stepscontainer">
-            <div class="step">
-                <h1>1</h1>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                    enim minima incidunt nemo sunt necessitatibus voluptatum?
-                    Necessitatibus quo sequi eligendi?
-                </p>
-            </div>
-
-            <div class="step">
-                <h1>2</h1>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                    enim minima incidunt nemo sunt necessitatibus voluptatum?
-                    Necessitatibus quo sequi eligendi?
-                </p>
-            </div>
-
-            <div class="step">
-                <h1>3</h1>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                    enim minima incidunt nemo sunt necessitatibus voluptatum?
-                    Necessitatibus quo sequi eligendi?
-                </p>
-            </div>
-
-            <div class="step">
-                <h1>4</h1>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                    enim minima incidunt nemo sunt necessitatibus voluptatum?
-                    Necessitatibus quo sequi eligendi?
-                </p>
-            </div>
+          
         </section>
     </body>
 </body>
