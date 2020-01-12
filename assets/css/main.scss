@@ -157,6 +157,22 @@ nav {
       font-size: 18px;
       margin-top: $space2;
       text-decoration: none;
+
+      //after style
+      &::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 2px;
+        background-color: $black;
+        transition: width 0.3s;
+      }
+
+      //on hover after style
+      &:hover::after {
+        width: 100%;
+        transition: width 0.3s;
+      }
     }
   }
 }
@@ -209,6 +225,22 @@ nav {
         font-size: 18px;
         margin-top: auto;
         width: 153px;
+
+        //after style
+        &::after {
+          content: "";
+          display: block;
+          width: 0px;
+          height: 2px;
+          background-color: $black;
+          transition: width 0.3s;
+        }
+
+        //on hover after style
+        &:hover::after {
+          width: 100%;
+          transition: width 0.3s;
+        }
       }
     }
 
@@ -279,7 +311,6 @@ nav {
         font-family: brandon-grotesque, sans-serif;
         font-weight: 300;
         font-style: normal;
-        text-align: justify;
       }
     }
   }
