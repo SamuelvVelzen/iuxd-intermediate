@@ -271,6 +271,12 @@ nav ul .navitem:not(.first) a:hover::after {
   text-align: center;
 }
 
+#steps .stepscontainer .step p {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 @media screen and (max-width: 767px) {
   #steps.stepscontainer .step {
     max-width: 45%;
