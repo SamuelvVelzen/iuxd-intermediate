@@ -229,6 +229,7 @@ section {
 #steps {
   background-color: lightgrey;
   padding: 0 30px;
+  padding-bottom: 30px;
 }
 
 #steps .title {
