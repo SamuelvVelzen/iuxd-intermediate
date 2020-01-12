@@ -1,8 +1,31 @@
 title: Default Page
 preset: page
 fields:
-  text:
-    label: Text
+  inleiding:
+    label: Inleiding
     type: textarea
-    size: large
-
+    size: small
+  why_inleiding:
+    label: Waarom inleiding
+    type: textarea
+    size: small
+  how_inleiding:
+    label: Hoe inleiding
+    type: textarea
+    size: small
+  what_inleiding:
+    label: Wat inleiding
+    type: textarea
+    size: small
+  why_content:
+    label: Waarom content
+    type: textarea
+    size: middle
+  how_content:
+    label: Hoe content
+    type: textarea
+    size: middle
+  what_content:
+    label: Wat content
+    type: textarea
+    size: middle

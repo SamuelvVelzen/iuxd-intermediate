@@ -1,0 +1,157 @@
+//variables
+$fonts: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$font-bold: "ProximaNovaBold";
+
+$font-light: "ProximaNovaLight";
+
+$black: #151515;
+$white: white;
+$grey: lightgrey;
+$yellow: #fccc30;
+
+$container: 0 10%;
+$space: 15px;
+$space2: $space * 2;
+$space3: $space * 3;
+$space4: $space * 4;
+
+$tablet: 767px;
+$mobile: 540px;
+
+@font-face {
+  font-family: ProximaNovaBold;
+  src: url(./fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(./fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf);
+}
+
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url(./fonts/FontsFree-Net-Proxima-Nova-Light.otf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fonts;
+  color: $black;
+  letter-spacing: 1px;
+}
+
+b {
+  font: $font-bold;
+}
+
+section {
+  min-height: 100vh;
+  border-bottom: 1px solid $black;
+}
+
+#intro {
+  background-color: black;
+
+  video {
+    height: 100vh;
+
+    object-fit: contain;
+  }
+  div {
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    left: 40px;
+    margin: 0 200px;
+    transform: translateY(-50%);
+
+    .titelpage {
+      font-family: $fonts;
+      font-size: 70px;
+      color: #fbd87e;
+      padding-bottom: 20px;
+    }
+
+    .introductie {
+      font-family: $font-light;
+      font-size: 18px;
+      color: $white;
+      line-height: 24px;
+    }
+  }
+}
+
+#whw {
+  margin: $container;
+
+  .question {
+    display: flex;
+    margin-bottom: $space4;
+
+    .text {
+      flex: 2;
+
+      &:last-child {
+        margin-left: $space4;
+      }
+    }
+
+    .image {
+      background-color: black;
+      flex: 1;
+      max-height: 200px;
+
+      &:last-child {
+        margin-left: $space4;
+      }
+    }
+
+    &:first-of-type {
+      margin-top: $space4;
+    }
+  }
+}
+
+#steps {
+  background-color: $grey;
+  padding: $container;
+
+  &.stepscontainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .step {
+      width: 25%;
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+//responsive
+@media screen and (max-width: $tablet) {
+  #steps {
+    &.stepscontainer {
+      .step {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  #steps {
+    &.stepscontainer {
+      .step {
+        width: 100%;
+      }
+    }
+  }
+}

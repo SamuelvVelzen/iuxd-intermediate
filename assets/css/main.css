@@ -1,0 +1,143 @@
+@font-face {
+  font-family: ProximaNovaBold;
+  src: url(./fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(./fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf);
+}
+
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url(./fonts/FontsFree-Net-Proxima-Nova-Light.otf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #151515;
+  letter-spacing: 1px;
+}
+
+b {
+  font: "ProximaNovaBold";
+}
+
+section {
+  min-height: 100vh;
+  border-bottom: 1px solid #151515;
+}
+
+#intro {
+  background-color: black;
+}
+
+#intro video {
+  height: 100vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#intro div {
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  left: 40px;
+  margin: 0 200px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#intro div .titelpage {
+  font-family: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 70px;
+  color: #fbd87e;
+  padding-bottom: 20px;
+}
+
+#intro div .introductie {
+  font-family: "ProximaNovaLight";
+  font-size: 18px;
+  color: white;
+  line-height: 24px;
+}
+
+#whw {
+  margin: 0 10%;
+}
+
+#whw .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+#whw .question .text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+#whw .question .text:last-child {
+  margin-left: 60px;
+}
+
+#whw .question .image {
+  background-color: black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-height: 200px;
+}
+
+#whw .question .image:last-child {
+  margin-left: 60px;
+}
+
+#whw .question:first-of-type {
+  margin-top: 60px;
+}
+
+#steps {
+  background-color: lightgrey;
+  padding: 0 10%;
+}
+
+#steps.stepscontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#steps.stepscontainer .step {
+  width: 25%;
+}
+
+#steps.stepscontainer .step h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  #steps.stepscontainer .step {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #steps.stepscontainer .step {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

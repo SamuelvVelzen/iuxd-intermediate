@@ -6,31 +6,182 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <?= css([
+        'assets/css/main.css',
+    ]) ?>
+
+    <?= js('assets/js/main.js') ?>
 
     <title><?= $page->title() ?></title>
 </head>
 
 <body>
-    <h1><?= $page->title() ?></h1>
 
-    <p><?= $page->text()->kirbytext() ?></p>
+    <body>
+        <section id="intro">
+            <?php foreach($page->videos() as $video): ?>
+            <video width="100%" height="100vh" autoplay muted loop>
+                <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                Your browser does not support the video tag.
+            </video>
+            <?php endforeach ?>
 
+            <div>
+                <p class="titelpage">Visual Branding</p>
+                <p class="introductie">
+                    <?= $page->Inleiding() ?>
+                </p>
+            </div>
 
+        </section>
+        <section id="whw">
+            <h1 class="title"></h1>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+            <div class="why question">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+                </div>
+                <div class="image"></div>
+            </div>
+            <div class="how question">
+                <div class="image"></div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+                </div>
+            </div>
+            <div class="what question">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    laborum corporis quibusdam in ea soluta inventore! Molestiae autem
+                    voluptatibus doloribus repellat cupiditate laborum omnis
+                    necessitatibus, assumenda soluta aspernatur, voluptate voluptatem.
+                </div>
+                <div class="image"></div>
+            </div>
+        </section>
+        <section id="steps" class="stepscontainer">
+            <div class="step">
+                <h1>1</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>2</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>3</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+
+            <div class="step">
+                <h1>4</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
+                    unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
+                    enim minima incidunt nemo sunt necessitatibus voluptatum?
+                    Necessitatibus quo sequi eligendi?
+                </p>
+            </div>
+        </section>
+    </body>
 </body>
 
 </html>
