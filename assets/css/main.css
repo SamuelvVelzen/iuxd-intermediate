@@ -397,12 +397,14 @@ nav ul .navitem:not(.first) a:hover::after {
   background-color: lightgrey;
   margin: 0 7%;
   padding: 0 7%;
+  padding-bottom: 45px;
 }
 
 #workshop .title {
   text-align: center;
   padding-top: 60px;
   margin-bottom: 75px;
+  padding-bottom: 0px;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
   font-style: normal;

@@ -252,7 +252,7 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
                         <div class="personal">
                             <p class="name">Dimitri Philips</p>
                             <p class="work">
-                                Klasgenote minor
+                                Interaction designer
                             </p>
                         </div>
                     </div>
@@ -268,7 +268,7 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
                         <div class="personal">
                             <p class="name">Dionne de Vries</p>
                             <p class="work">
-                                Beste vriendin Gabriel
+                                UX-designer
                             </p>
                         </div>
                     </div>

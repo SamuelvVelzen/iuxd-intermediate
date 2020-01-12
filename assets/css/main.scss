@@ -399,11 +399,13 @@ nav {
   background-color: $grey;
   margin: 0 7%;
   padding: 0 7%;
+  padding-bottom: $space3;
 
   .title {
     text-align: center;
     padding-top: $space4;
     margin-bottom: $space5;
+    padding-bottom: 0px;
     font-family: brandon-grotesque, sans-serif;
     font-weight: 300;
     font-style: normal;
