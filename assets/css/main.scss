@@ -260,8 +260,12 @@ section {
       max-width: 22.5%;
 
       .stepicon {
-        max-width: 10%;
+        display: block;
         margin: 0 auto;
+        background-color: $black;
+        width: 100px;
+        max-height: 100px;
+        margin-bottom: $space;
       }
 
       h1 {
@@ -320,11 +324,13 @@ section {
         font-weight: 800;
         font-style: normal;
         font-size: 18px;
+        margin-bottom: $space;
       }
 
       .info {
         display: flex;
         flex-direction: row;
+        margin-top: auto;
 
         .picture {
           display: block;

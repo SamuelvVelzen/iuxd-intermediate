@@ -257,8 +257,12 @@ section {
 }
 
 #steps .stepscontainer .step .stepicon {
-  max-width: 10%;
+  display: block;
   margin: 0 auto;
+  background-color: #151515;
+  width: 100px;
+  max-height: 100px;
+  margin-bottom: 15px;
 }
 
 #steps .stepscontainer .step h1 {
@@ -320,6 +324,7 @@ section {
   font-weight: 800;
   font-style: normal;
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
 #workshop .reviewsgroup .review .info {
@@ -330,6 +335,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: auto;
 }
 
 #workshop .reviewsgroup .review .info .picture {
