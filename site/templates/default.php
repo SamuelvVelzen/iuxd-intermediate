@@ -23,10 +23,10 @@
         <nav>
             <ul>
                 <li class="navitem first"><a href="#">Gabriel en Sam</a></li>
-                <li class="navitem"><a href="#">Wat</a></li>
-                <li class="navitem"><a href="#">Waarom</a></li>
-                <li class="navitem"><a href="#">Hoe</a></li>
-                <li class="navitem"><a href="#">Voorbeeld</a></li>
+                <li class="navitem"><a class="clickableNav" href="#whwTitle">Onderwerpen</a></li>
+                <li class="navitem"><a class="clickableNav" href="#stappenplan">Stappenplan</a></li>
+                <li class="navitem"><a class="clickableNav" href="#examplecase">Voorbeelduitwerking</a></li>
+                <li class="navitem"><a class="clickableNav" href="#workshop">Workshop reviews</a></li>
             </ul>
         </nav>
 
@@ -110,7 +110,7 @@
             </div>
         </section>
         <section id="steps">
-            <h1 class="title">Stappenplan</h1>
+            <h1 id="stappenplan" class="title">Stappenplan</h1>
             <div class='stepscontainer'>
                 <div class="step">
                     <?php if($image = $page->image('brandexperience-icon.png')): ?>
@@ -172,8 +172,12 @@
             </div>
         </section>
 
+        <section id="voorbeelduitwerking">
+            <h1 id="examplecase" class="title">Wat onze workshop deelnemers zeggen</h1>
+        </section>
+
         <section id="workshop">
-            <h1 class="title">Wat onze workshop deelnemers zeggen</h1>
+            <h1 id="workshop" class="title">Wat onze workshop deelnemers zeggen</h1>
 
             <div class="reviewsgroup">
                 <div class="review">
