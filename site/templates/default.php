@@ -119,15 +119,7 @@
                     <h1>1</h1>
                     <p>
                     Brand experience
-                    Sterke merken weten hoe belangrijk merkbeleving is. 
-                    Als mensen een positieve associatie bij je bedrijf hebben, 
-                    zullen zij namelijk eerder tot een aankoop overgaan – zowel online als offline. 
-                    Het creëren van de juiste brand experience is daarom altijd het uitgangspunt van visual branding, 
-                    zeker bij fysieke contactmomenten. Van een winkelbezoek tot een merkactivatie op een evenement, 
-                    het opwekken van een wow-reactie is altijd het doel. Zou een merk als Nike genoegen nemen met minder? 
-                    Natuurlijk niet. Daarom moet elke uiting tot in de puntjes (of pixels) verzorgd zijn. Dat mega-billboard, 
-                    die visuals in de brand store – alles moet Nike ademen. Samen vertellen deze uitingen één consistent verhaal. 
-                    Alleen zo creëer je als merk het juiste gevoel bij je doelgroep.
+                    Bekende en internationale merken weten hoe belangrijk merkbeleving is. Als mensen een positieve associatie bij je bedrijf hebben, zullen zij sneller tot een aankoop overgaan – zowel online als offline. Het creëren van de juiste brand experience is daarom altijd het uitgangspunt van visual branding, zeker bij fysieke contactmomenten. De verhaallijn eromheen, de quotes, social accounts en de visuals moeten tot in de puntjes (of pixels) verzorgd zijn. Samen moet het één consistent verhaal worden. Alleen zo creëer je als merk het juiste gevoel bij je doelgroep. Een voorbeeld is Coca Cola, dit merk heeft de kerstman grotendeels in kaart gebracht.
                     </p>
                 </div>
 
@@ -137,10 +129,8 @@
                     <?php endif ?>
                     <h1>2</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                        unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                        enim minima incidunt nemo sunt necessitatibus voluptatum?
-                        Necessitatibus quo sequi eligendi?
+                    Comfort    
+                    Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een karakterloos decor, is niet meer van deze tijd. Als klanten zich wél thuis voelen in je winkel, dan blijven ze langer en dit zorgt voor een betere omzet. Een winkel moet tegenwoordig zo in elkaar zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een klant moet een foto ervan kunnen maken en het zo kunnen delen dat er weinig bewerking nodig is. Comfort staat niet alleen voor de inrichting maar ook voor gebruiksgemak. Iedereen heeft een Smartphone en veel gebruiken programma’s als Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven. Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat online gedeeld
                     </p>
                 </div>
 
@@ -150,10 +140,9 @@
                     <?php endif ?>
                     <h1>3</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                        unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                        enim minima incidunt nemo sunt necessitatibus voluptatum?
-                        Necessitatibus quo sequi eligendi?
+                    Flexibiliteit
+                    Om de juiste merkbeleving en comfort te creëren, verlangen brandmanagers van sterke merken een grote mate van flexibiliteit in hun visuele communicatie. Ze willen op ieder moment het passende verhaal kunnen vertellen. Een merk moet eigenlijk op elk moment toepasbaar zijn. Met dit bedoelen we dat een merk visueel toepasbaar moet zijn op bijv. de seizoenen, feestdagen, back to school dagen, maandelijkse evenementen, sportevenementen (denk aan de olympische spelen, etc etc. Zo speelt Apple bijv. in op de back to school dagen, door extra korting te geven in de maanden augustus en september. 
+
                     </p>
                 </div>
 
@@ -163,10 +152,10 @@
                     <?php endif ?>
                     <h1>4</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sed
-                        unde molestiae, expedita ea perspiciatis blanditiis vitae debitis rem
-                        enim minima incidunt nemo sunt necessitatibus voluptatum?
-                        Necessitatibus quo sequi eligendi?
+                    Duurzaamheid
+                    Elk global brand, van Coca Cola tot Apple, streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze is hier ook van belang, er zijn allerlei materialen beschikbaar die je ecologische afdruk verminderen. Denk aan opvouwbare textielen die zorgen voor minder volume, waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
+                    Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke imagoschade oplopen als je erg milieuonvriendelijk produceert. 
+
                     </p>
                 </div>
             </div>
