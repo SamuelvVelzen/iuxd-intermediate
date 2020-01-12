@@ -275,6 +275,7 @@ nav ul .navitem:not(.first) a:hover::after {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
