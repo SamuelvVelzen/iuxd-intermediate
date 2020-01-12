@@ -163,6 +163,13 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #whw .question .text .title {
@@ -180,20 +187,21 @@ section {
   padding: 15px 30px;
   font-family: "ProximaNovaBold";
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: auto;
+  width: 153px;
 }
 
-#whw .question .text .hiddenContent {
+#whw .question .hiddenContent {
   overflow: hidden;
 }
 
-#whw .question .text .hiddenContent p {
+#whw .question .hiddenContent p {
   margin-top: -10000px;
   -webkit-transition: margin-top 1s;
   transition: margin-top 1s;
 }
 
-#whw .question .text .hiddenContent.open p {
+#whw .question .hiddenContent.open p {
   margin-top: 30px;
 }
 
@@ -211,22 +219,22 @@ section {
 
 #steps {
   background-color: lightgrey;
-  padding: 0 14%;
+  padding: 0 30px;
 }
 
 #steps.stepscontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 #steps.stepscontainer .step {
-  width: 25%;
+  max-width: 22.5%;
 }
 
 #steps.stepscontainer .step h1 {
@@ -235,13 +243,13 @@ section {
 
 @media screen and (max-width: 767px) {
   #steps.stepscontainer .step {
-    width: 50%;
+    max-width: 45%;
   }
 }
 
 @media screen and (max-width: 540px) {
   #steps.stepscontainer .step {
-    width: 100%;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
