@@ -148,7 +148,7 @@
                         niet alleen voor de inrichting maar ook voor gebruiksgemak. Iedereen heeft een Smartphone en
                         veel gebruiken programma’s als Snapchat & Instagram. Deze programma’s zijn bekend en dus
                         makkelijk in te zetten voor bedrijven. Chocomel heeft dit bijv. ingezet bij de Chocomel letters.
-                        Deze letters worden via Snapchat online gedeeld
+                        Deze letters worden via Snapchat online gedeeld.
                     </p>
                 </div>
 
@@ -165,7 +165,6 @@
                         school dagen, maandelijkse evenementen, sportevenementen (denk aan de olympische spelen, etc
                         etc. Zo speelt Apple bijv. in op de back to school dagen, door extra korting te geven in de
                         maanden augustus en september.
-
                     </p>
                 </div>
 
@@ -175,14 +174,13 @@
                     <?php endif ?>
                     <h1>4. Duurzaamheid</h1>
                     <p>
-                        Elk global brand, van Coca Cola tot Apple, streeft naar een zo milieuvriendelijk mogelijke
-                        productieketen. Materiaalkeuze is hier ook van belang, er zijn allerlei materialen beschikbaar
-                        die je ecologische afdruk verminderen. Denk aan opvouwbare textielen die zorgen voor minder
-                        volume, waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
+                        Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze
+                        is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume,
+                        waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
                         Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met
                         de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het
                         nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke
-                        imagoschade oplopen als je erg milieuonvriendelijk produceert.
+                        imagoschade oplopen als je erg milieuonvriendelijk produceert
 
                     </p>
                 </div>
@@ -288,6 +286,42 @@
             </div>
         </section>
 
+        <section id="partners">
+            <h1 class="title">Met wie we samenwerken</h1>
+
+
+        </section>
+
+        <section id="footer">
+            <div class="makers">
+                <div class="gab maker">
+                    <?php if($image = $page->image('stap-3.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='makerImage'>
+                    <?php endif ?>
+
+                    <p>Gabriëlle van der Valk</p>
+                    <p>0934432</p>
+                    <a
+                        href="https://www.google.com/maps/place/Van+der+Valk+Hotel+Tilburg/@51.5436568,5.1085848,17z/data=!3m1!4b1!4m8!3m7!1s0x47c6bfbc46a8ae07:0x54c900b2f72e993e!5m2!4m1!1i2!8m2!3d51.5436535!4d5.1107681">Bezoek
+                        me!</a>
+                </div>
+
+                <div class="sam maker">
+                    <?php if($image = $page->image('stap-3.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='makerImage'>
+                    <?php endif ?>
+
+                    <p>Samuël van Velzen</p>
+                    <p>0934432</p>
+                    <a
+                        href="https://www.google.com/maps/place/Hogeschool+Windesheim/@52.4995106,6.077882,17z/data=!3m1!4b1!4m5!3m4!1s0x47c7ded4e818a589:0x68b47bb437213d3b!8m2!3d52.4995074!4d6.0800653">Bezoek
+                        me!</a>
+                </div>
+            </div>
+
+
+
+        </section>
         <script>
         main.init();
         AOS.init();

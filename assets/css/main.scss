@@ -356,7 +356,7 @@ nav {
 
     &.right {
       .text {
-        padding-left: $space;
+        padding-left: $space2;
         padding-right: 0;
       }
     }
@@ -451,6 +451,65 @@ nav {
           .name {
             font-size: 18px;
           }
+        }
+      }
+    }
+  }
+}
+
+#partners {
+  margin: $container;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+}
+
+#footer {
+  background-color: $black;
+  padding: $space2;
+
+  .makers {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+
+    .maker {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .makerImage {
+        border-radius: 50%;
+      }
+
+      p {
+        color: $white;
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 0px;
+          height: 2px;
+          background-color: $white;
+          transition: width 0.3s;
+        }
+
+        //on hover after style
+        &:hover::after {
+          width: 100%;
+          transition: width 0.3s;
         }
       }
     }

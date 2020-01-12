@@ -346,7 +346,7 @@ nav ul .navitem:not(.first) a:hover::after {
 }
 
 #voorbeelduitwerking .examplecasestep.right .text {
-  padding-left: 15px;
+  padding-left: 30px;
   padding-right: 0;
 }
 
@@ -478,5 +478,77 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #workshop .reviewsgroup .review .info .personal .name {
   font-size: 18px;
+}
+
+#partners {
+  margin: 0 14%;
+}
+
+#partners .title {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 75px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 45px;
+}
+
+#footer {
+  background-color: #151515;
+  padding: 30px;
+}
+
+#footer .makers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+#footer .makers .maker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#footer .makers .maker .makerImage {
+  border-radius: 50%;
+}
+
+#footer .makers .maker p {
+  color: white;
+}
+
+#footer .makers .maker a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer .makers .maker a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: white;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+#footer .makers .maker a:hover::after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
 }
 /*# sourceMappingURL=main.css.map */
