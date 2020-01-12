@@ -114,12 +114,9 @@ nav {
   }
 }
 
-section {
-  min-height: 100vh;
-}
-
 #intro {
   background-color: black;
+  min-height: 100vh;
 
   video {
     height: 100vh;

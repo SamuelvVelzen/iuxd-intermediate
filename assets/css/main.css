@@ -91,12 +91,9 @@ nav ul .navitem:not(.first) a:hover::after {
   transition: width 0.3s;
 }
 
-section {
-  min-height: 100vh;
-}
-
 #intro {
   background-color: black;
+  min-height: 100vh;
 }
 
 #intro video {
