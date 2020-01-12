@@ -331,13 +331,13 @@ section {
       display: flex;
       flex-direction: column;
       padding-right: $space;
+      justify-content: center;
 
       .title {
         text-align: left;
         font-family: $font-bold;
         font-size: 35px;
         margin-bottom: $space2;
-        margin-top: auto;
       }
 
       p {
@@ -345,17 +345,6 @@ section {
         font-weight: 300;
         font-style: normal;
         font-size: 18px;
-      }
-
-      button {
-        background-color: #fbd87e;
-        outline: none;
-        border: none;
-        padding: $space $space2;
-        font-family: $font-bold;
-        font-size: 18px;
-        margin-top: auto;
-        width: 153px;
       }
     }
 
@@ -372,6 +361,7 @@ section {
 }
 
 #workshop {
+  background-color: $grey;
   margin: $container;
 
   .title {

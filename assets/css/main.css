@@ -327,6 +327,9 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-right: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #voorbeelduitwerking .examplecasestep .text .title {
@@ -334,7 +337,6 @@ section {
   font-family: "ProximaNovaBold";
   font-size: 35px;
   margin-bottom: 30px;
-  margin-top: auto;
 }
 
 #voorbeelduitwerking .examplecasestep .text p {
@@ -342,17 +344,6 @@ section {
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
-}
-
-#voorbeelduitwerking .examplecasestep .text button {
-  background-color: #fbd87e;
-  outline: none;
-  border: none;
-  padding: 15px 30px;
-  font-family: "ProximaNovaBold";
-  font-size: 18px;
-  margin-top: auto;
-  width: 153px;
 }
 
 #voorbeelduitwerking .examplecasestep .image {
@@ -368,6 +359,7 @@ section {
 }
 
 #workshop {
+  background-color: lightgrey;
   margin: 0 14%;
 }
 
