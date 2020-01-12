@@ -1,0 +1,521 @@
+//variables
+$fonts: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$font-bold: "ProximaNovaBold";
+
+$font-light: "ProximaNovaLight";
+
+$black: #151515;
+$white: white;
+$grey: lightgrey;
+$yellow: #fbd87e;
+
+$container: 0 14%;
+$space: 15px;
+$space2: $space * 2;
+$space3: $space * 3;
+$space4: $space * 4;
+$space5: $space * 5;
+
+$tablet: 767px;
+$mobile: 540px;
+
+@font-face {
+  font-family: ProximaNovaBold;
+  src: url(./fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(./fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf);
+}
+
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url(./fonts/FontsFree-Net-Proxima-Nova-Light.otf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fonts;
+  color: $black;
+  letter-spacing: 1px;
+}
+
+b {
+  font: $font-bold;
+}
+
+hr {
+  border: 1px solid $grey;
+}
+
+//nav element
+nav {
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+  background-color: $black;
+  opacity: 0.8;
+  z-index: 10;
+
+  //container met nav
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    z-index: 10;
+
+    //eerste nav kind item / logo / onze namen
+    .first {
+      margin-right: auto;
+    }
+
+    //elke nav kind item
+    .navitem {
+      list-style-type: none;
+
+      //elke nav link
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+
+      //elke nav item behalve de eerste link
+      &:not(.first) {
+        padding-left: $space2;
+
+        //elke nav link
+        a {
+          text-decoration: none;
+
+          //after style
+          &::after {
+            content: "";
+            display: block;
+            width: 0px;
+            height: 2px;
+            background-color: $white;
+            transition: width 0.3s;
+          }
+
+          //on hover after style
+          &:hover::after {
+            width: 100%;
+            transition: width 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
+
+#intro {
+  background-color: black;
+  min-height: 100vh;
+
+  video {
+    height: 100vh;
+
+    object-fit: contain;
+  }
+
+  div {
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    margin: $container;
+    transform: translateY(-50%);
+
+    .titelpage {
+      font-family: $fonts;
+      font-size: 70px;
+      color: $yellow;
+      padding-bottom: 20px;
+    }
+
+    .introductie {
+      font-family: brandon-grotesque, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 18px;
+      color: $white;
+      line-height: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: $yellow;
+      outline: none;
+      border: none;
+      padding: $space $space2;
+      font-family: $font-bold;
+      font-size: 18px;
+      margin-top: $space2;
+      text-decoration: none;
+
+      //after style
+      &::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 2px;
+        background-color: $black;
+        transition: width 0.3s;
+      }
+
+      //on hover after style
+      &:hover::after {
+        width: 100%;
+        transition: width 0.3s;
+      }
+    }
+  }
+}
+
+#whw {
+  margin: $container;
+
+  .title {
+    text-align: center;
+    margin-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+
+  .question {
+    display: flex;
+    margin: $space2 0;
+    flex-wrap: wrap;
+
+    .text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding-right: $space;
+
+      .title {
+        text-align: left;
+        font-family: $font-bold;
+        font-size: 35px;
+        margin-bottom: $space2;
+        margin-top: auto;
+      }
+
+      p {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+      }
+
+      button {
+        background-color: $yellow;
+        outline: none;
+        border: none;
+        padding: $space $space2;
+        font-family: $font-bold;
+        font-size: 18px;
+        margin-top: auto;
+        width: 153px;
+
+        //after style
+        &::after {
+          content: "";
+          display: block;
+          width: 0px;
+          height: 2px;
+          background-color: $black;
+          transition: width 0.3s;
+        }
+
+        //on hover after style
+        &:hover::after {
+          width: 100%;
+          transition: width 0.3s;
+        }
+      }
+    }
+
+    .hiddenContent {
+      overflow: hidden;
+
+      p {
+        margin-top: -10000px;
+        transition: margin-top 1s;
+      }
+
+      &.open {
+        p {
+          margin-top: $space2;
+        }
+      }
+    }
+
+    .image {
+      background-color: black;
+      flex: 1;
+      max-height: 400px;
+
+      &:last-child {
+        margin-left: $space4;
+      }
+    }
+  }
+}
+
+#steps {
+  background-color: $grey;
+  padding: 0 $space2;
+  padding-bottom: $space2;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+
+  .stepscontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .step {
+      max-width: 22.5%;
+
+      .stepicon {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        max-height: 150px;
+        margin-bottom: $space2;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: $space2;
+      }
+
+      p {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+//responsive
+@media screen and (max-width: $tablet) {
+  #steps {
+    .stepscontainer {
+      .step {
+        max-width: 45%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  #steps {
+    .stepscontainer {
+      .step {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+#voorbeelduitwerking {
+  margin: $container;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+  .examplecasestep {
+    display: flex;
+    margin: $space2 0;
+    flex-wrap: wrap;
+
+    &.right {
+      .text {
+        padding-left: $space2;
+        padding-right: 0;
+      }
+    }
+
+    .text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding-right: $space;
+      justify-content: center;
+
+      .title {
+        text-align: left;
+        font-family: $font-bold;
+        font-size: 35px;
+        margin-bottom: $space2;
+      }
+
+      p {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+      }
+    }
+
+    .image {
+      background-color: black;
+      flex: 1;
+      max-height: 400px;
+
+      &:last-child {
+        margin-left: $space4;
+      }
+    }
+  }
+}
+
+#workshop {
+  background-color: $grey;
+  margin: 0 7%;
+  padding: 0 7%;
+  padding-bottom: $space3;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    padding-bottom: 0px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+
+  .reviewsgroup {
+    display: flex;
+    flex-direction: row;
+
+    .review {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: $space;
+
+      .quote {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 18px;
+        margin-bottom: $space;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: row;
+        margin-top: auto;
+
+        .picture {
+          display: block;
+          height: 100px;
+          width: 100px;
+          background-color: $black;
+          border-radius: 100%;
+        }
+
+        .personal {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: flex-end;
+          margin-left: $space;
+
+          .name {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#partners {
+  display: none;
+  margin: $container;
+
+  .title {
+    text-align: center;
+    padding-top: $space4;
+    margin-bottom: $space5;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+  }
+}
+
+#footer {
+  display: none;
+  background-color: $black;
+  padding: $space2;
+
+  .makers {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+
+    .maker {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .makerImage {
+        border-radius: 50%;
+      }
+
+      p {
+        color: $white;
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 0px;
+          height: 2px;
+          background-color: $white;
+          transition: width 0.3s;
+        }
+
+        //on hover after style
+        &:hover::after {
+          width: 100%;
+          transition: width 0.3s;
+        }
+      }
+    }
+  }
+}
