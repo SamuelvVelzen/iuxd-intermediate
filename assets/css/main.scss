@@ -62,7 +62,7 @@ nav {
   ul {
     display: flex;
     flex-direction: row;
-    padding: $space;
+    padding: 20px;
     z-index: 10;
 
     //eerste nav kind item / logo / onze namen
@@ -82,7 +82,7 @@ nav {
 
       //elke nav item behalve de eerste link
       &:not(.first) {
-        padding-left: $space;
+        padding-left: $space2;
 
         //elke nav link
         a {
@@ -138,7 +138,9 @@ section {
     }
 
     .introductie {
-      font-family: $font-light;
+      font-family: brandon-grotesque, sans-serif;
+      font-weight: 300;
+      font-style: normal;
       font-size: 18px;
       color: $white;
       line-height: 24px;
@@ -162,6 +164,7 @@ section {
   .title {
     text-align: center;
     margin-top: $space3;
+    font-family: $font-bold;
   }
 
   .question {
