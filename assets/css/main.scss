@@ -258,6 +258,12 @@ section {
 
     .step {
       max-width: 22.5%;
+
+      .stepicon {
+        max-width: 10%;
+        margin: 0 auto;
+      }
+
       h1 {
         text-align: center;
       }
