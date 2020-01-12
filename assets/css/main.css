@@ -181,6 +181,12 @@ section {
   margin-top: 0;
 }
 
+#whw .question .text p {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 #whw .question .text button {
   background-color: #fbd87e;
   outline: none;
