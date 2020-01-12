@@ -40,7 +40,6 @@ nav {
 }
 
 nav ul {
-  margin: 0 14%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
