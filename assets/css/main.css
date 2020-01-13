@@ -456,8 +456,8 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #workshop .reviewsgroup .review .info .picture {
   display: block;
-  height: 100px;
-  width: 100px;
+  width: auto;
+  max-height: 100px;
   background-color: #151515;
   border-radius: 100%;
 }
@@ -483,7 +483,6 @@ nav ul .navitem:not(.first) a:hover::after {
 }
 
 #partners {
-  display: none;
   margin: 0 14%;
 }
 
@@ -497,10 +496,26 @@ nav ul .navitem:not(.first) a:hover::after {
   font-size: 45px;
 }
 
+#partners .brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#partners .brands .brandImage {
+  max-width: 200px;
+  height: auto;
+}
+
 #footer {
-  display: none;
   background-color: #151515;
-  padding: 30px;
+  padding: 30px 14%;
+  margin-top: 60px;
 }
 
 #footer .makers {
@@ -525,14 +540,25 @@ nav ul .navitem:not(.first) a:hover::after {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #footer .makers .maker .makerImage {
   border-radius: 50%;
+  max-width: 100px;
+  height: 100px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 #footer .makers .maker p {
   color: white;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 #footer .makers .maker a {

@@ -437,8 +437,8 @@ nav {
 
         .picture {
           display: block;
-          height: 100px;
-          width: 100px;
+          width: auto;
+          max-height: 100px;
           background-color: $black;
           border-radius: 100%;
         }
@@ -460,7 +460,6 @@ nav {
 }
 
 #partners {
-  display: none;
   margin: $container;
 
   .title {
@@ -472,12 +471,23 @@ nav {
     font-style: normal;
     font-size: 45px;
   }
+
+  .brands {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .brandImage {
+      max-width: 200px;
+      height: auto;
+    }
+  }
 }
 
 #footer {
-  display: none;
   background-color: $black;
-  padding: $space2;
+  padding: $space2 14%;
+  margin-top: $space4;
 
   .makers {
     display: flex;
@@ -488,13 +498,18 @@ nav {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      align-items: center;
 
       .makerImage {
         border-radius: 50%;
+        max-width: 100px;
+        height: 100px;
+        flex: 1;
       }
 
       p {
         color: $white;
+        flex: 1;
       }
 
       a {

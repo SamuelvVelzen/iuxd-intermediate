@@ -6,16 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://use.typekit.net/gmx3xsc.css">
 
     <?= css([
         'assets/css/main.css',
-    ]) ?>
+        ]) ?>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/gmx3xsc.css">
 
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <?= js(['assets/js/main.js',]) ?>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title><?= $page->title() ?></title>
 </head>
@@ -140,7 +139,14 @@
                     <?php endif ?>
                     <h1>2. Comfort</h1>
                     <p>
-                    Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven. Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat online gedeeld.
+                        Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een
+                        karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar
+                        zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt
+                        het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor
+                        gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als
+                        Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven.
+                        Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat
+                        online gedeeld.
                     </p>
                 </div>
 
@@ -166,10 +172,15 @@
                     <?php endif ?>
                     <h1>4. Duurzaamheid</h1>
                     <p>
-                        
-                    Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume, waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
-Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke imagoschade oplopen als je erg milieuonvriendelijk produceert. 
-  
+
+                        Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze
+                        is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume,
+                        waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
+                        Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met
+                        de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het
+                        nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke
+                        imagoschade oplopen als je erg milieuonvriendelijk produceert.
+
 
 
                     </p>
@@ -301,13 +312,35 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
         <section id="partners">
             <h1 class="title">Met wie we samenwerken</h1>
 
+            <div class="brands">
+                <?php if($image = $page->image('dunking-donuts.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
+                <?php endif ?>
 
+                <?php if($image = $page->image('dunking-donuts.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
+                <?php endif ?>
+
+                <?php if($image = $page->image('dunking-donuts.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
+                <?php endif ?>
+
+                <?php if($image = $page->image('dunking-donuts.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
+                <?php endif ?>
+
+                <?php if($image = $page->image('dunking-donuts.png')): ?>
+                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
+                <?php endif ?>
+
+
+            </div>
         </section>
 
         <section id="footer">
             <div class="makers">
                 <div class="gab maker">
-                    <?php if($image = $page->image('stap-3.png')): ?>
+                    <?php if($image = $page->image('dunking-donuts.png')): ?>
                     <img src="<?= $image->url() ?>" alt="" class='makerImage'>
                     <?php endif ?>
 
@@ -319,7 +352,7 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
                 </div>
 
                 <div class="sam maker">
-                    <?php if($image = $page->image('stap-3.png')): ?>
+                    <?php if($image = $page->image('me.jpg')): ?>
                     <img src="<?= $image->url() ?>" alt="" class='makerImage'>
                     <?php endif ?>
 
