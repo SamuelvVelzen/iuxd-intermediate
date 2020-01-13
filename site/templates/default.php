@@ -6,16 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://use.typekit.net/gmx3xsc.css">
 
     <?= css([
         'assets/css/main.css',
-    ]) ?>
+        ]) ?>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/gmx3xsc.css">
 
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <?= js(['assets/js/main.js',]) ?>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title><?= $page->title() ?></title>
 </head>
@@ -25,7 +24,7 @@
     <body>
         <nav>
             <ul>
-                <li class="navitem first"><a href="#">Gabriel en Sam</a></li>
+                <li class="navitem first"><a href="#">Gabrielle en Samuel</a></li>
                 <li class="navitem"><a class="clickableNav" href="#whwTitle">Onderwerpen</a></li>
                 <li class="navitem"><a class="clickableNav" href="#stappenplan">Stappenplan</a></li>
                 <li class="navitem"><a class="clickableNav" href="#examplecase">Voorbeelduitwerking</a></li>
@@ -54,8 +53,8 @@
 
         </section>
 
-        <!-- <section id="whw" data-aos="fade-up"> -->
-        <section id="whw">
+        <section id="whw" data-aos="fade-up">
+        <!-- <section id="whw"> -->
             <h1 id="whwTitle" class="title">Onderwerpen</h1>
 
             <div class="what question">
@@ -72,7 +71,93 @@
                 <?php endif ?>
 
                 <div id="whatContent" class="hiddenContent">
-                    <p><?= $page->What_content() ?></p>
+
+                    <?php if($image = $page->image('mindmap.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='bigimage'>
+                    <?php endif ?>
+
+                    <div class="text special">
+
+                        <div class="first">
+                            <b>
+
+                                Inleiding
+                            </b>
+                            <p>
+                                Als eerst gaan we kijken naar de ontwikkeling van een product in een ontwerpproces.
+                                Hierna
+                                zullen we gaan kijken wat nou een goed product is. En als laatst zullen we de
+                                verschillende
+                                online resources behandelen.</p>
+                            <b>
+
+                                Ontwerpproces
+                            </b>
+                            <p>
+                                Het ontwerpproces bestaat uit 8 verschillende stappen. Hiermee zal een idee uitgewerkt
+                                worden tot een goede visual branding.
+
+                                <ul>
+                                    <li> Als eerst zal er onderzoek gedaan worden met behulp van moodboards of
+                                        mindmapping. Aan de
+                                        hand van dit onderzoek zullen er meerdere schetsen gemaakt worden.</li>
+                                    <li> Deze schetsen zullen ingeleverd worden bij de opdrachtgever zodat er feedback
+                                        over
+                                        gegeven
+                                        kan worden.</li>
+                                    <li>De overgebleven schetsen zullen uitgewerkt worden in zwart en wit.</li>
+                                    <li>Deze schetsen zullen ingeleverd worden bij de opdrachtgever voor meer feedback.
+                                        De beste
+                                        variant zal uitgekozen worden.</li>
+                                    <li>Deze versie zal verder uitgewerkt worden met meer zwart en witte varianten. Ook
+                                        wordt er
+                                        gekeken naar de juiste spacing.</li>
+                                    <li>Uit al deze zwart en witte varianten zal de juiste gekozen worden door de
+                                        opdrachtgever.</li>
+                                    <li>Als laatst zal er een presentatie gegeven worden en zal er gekeken worden hoe
+                                        het logo op
+                                        verschillende producten staat. Zoals auto’s, petten, mokken, business cards of
+                                        huisstijls.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="second"><b>
+                                Goed product
+                            </b>
+                            <p>
+                                De kenmerken van een goed product kunnen alsvolgt beschreven worden:
+                                - Duidelijk merkdoel en positionering in de markt
+                                - Grondig marktonderzoek
+                                - Aangename merkpersoonlijkheid
+                                - Merkwaardig logo
+                                - Aantrekkelijk kleurenpalet
+                                - Professioneel typografie
+                                - Ondersteundende afbeeldingen in overeenkomst met het merk
+                            </p>
+                            <b>
+                                Online resources
+                            </b>
+                            <p>
+                                Als laatst kan een profesional de volgende online resources gebruiken om een succesvol
+                                visual
+                                branding op te kunnen zetten.
+                            </p>
+                            <p>
+                                Ten eerste moet er tijdens het onderzoek gekeken worden naar de huidige website / visual
+                                branding, zodat voor de huidige klanten de vertrouwelijkheid van het bedrijf niet
+                                veranderd.
+                            </p>
+                            <p>
+                                Daarnaast moet er onderzoeken gedaan worden op het internet over soortgelijke producten
+                                en
+                                hoe
+                                de concurrentie deze producten op de markt brengt.</p>
+                            <p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -91,7 +176,35 @@
                 <?php endif ?>
 
                 <div id="whyContent" class="hiddenContent">
-                    <p><?= $page->Why_content() ?></p>
+                    <?php if($image = $page->image('merkwijzer-waarom.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
+
+                    <div class="text right">
+                        <b>
+
+                            Inleiding
+                        </b>
+                        <p>Er zal dieper ingegaan worden op de rol van visual branding daarnaast zal er ook gekeken
+                            worden naar de verschillende tools die erbij komen kijken hoe visual branding wordt opgezet.
+                        </p>
+                        <b>
+
+                            Rol
+
+                        </b>
+                        <p>De rol van visual branding zorgt ervoor dat een bedrijf zich uniek kan positioneren in de
+                            markt. Met behulp van visual branding kan een bedrijf zich promoten naar het publiek
+                            waardoor potentiele kopers aangetrokken kunnen worden.</p>
+                        <b>
+
+                            Tools
+
+                        </b>
+                        <p>Om een visual branding te creëren worden verschillende programma’s gebruikt om dit
+                            tot stand te laten komen. Hiermee kunnen verschillende mensen ervoor zorgen dat er
+                            een goede visual branding ontstaat.</p>
+                    </div>
                 </div>
             </div>
 
@@ -110,9 +223,110 @@
 
 
                 <div id="howContent" class="hiddenContent">
-                    <p><?= $page->how_content() ?></p>
+                    <div class="text special">
+                        <div class="first">
+                            <b>
+
+                                Inleiding
+                            </b>
+                            <p>
+                                Hoe de visuele identiteit van een bedrijf wordt ervaren ligt dichtbij hoe een
+                                persoon een eigen
+                                identiteit ervaart. Wat maakt je wie je bent en hoe kom je over. Dat is hét
+                                belangrijkste
+                                onderdeel als het gaat om onderscheiding.
+                                Een visuele bedrijfsidentiteit laat zien wat je doet als bedrijf, wat je merkwaarden
+                                zijn en
+                                wat
+                                voor verhaal je vertelt.
+                            </p>
+                            <p>
+                                Zodra je erachter bent gekomen wat de merkwaarden zijn, kan je je merkidentiteit gaan
+                                visualiseren. Dit kan je illustreren in programma’s als Illustrator, Photoshop & Sketch.
+                                Tools als Premiere Pro en After Effect zijn handig bij bewegende visualisaties.
+                            </p>
+
+                            <?php if($image = $page->image('nike1.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image new'>
+                            <?php endif ?>
+                        </div>
+
+                        <div class="second">
+                            <b>
+
+                                Promoten
+                            </b>
+                            <p>
+                                Social media kanalen als Instagram en Linked-In zijn handig om je product te promoten.
+                                Facebook
+                                kan je eventueel inzetten als je doelgroep wat ouder is, maar dit social kanaal wordt
+                                steeds
+                                minder populair, dus in de toekomst minder effectief om in te zetten als tool.
+                            </p>
+                            <p>
+                                Nu de basisrichtlijnen in kaart zijn gebracht bij het oprichten van een merkidentiteit,
+                                gaan
+                                we
+                                nu verder op de branding zelf.
+                                Vroeger werd een product verkocht om het product zelf. Als voorbeeld, vroeger als je
+                                schoenen
+                                waren versleten, haalde je pas nieuwe schoenen. Ze hadden een functioneel doeleinde.
+                            </p>
+
+                            <?php if($image = $page->image('nike2.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image new'>
+                            <?php endif ?>
+                        </div>
+
+                        <p class="specialtext">
+                            In de tijd waar we nu in leven, haal je schoenen bij een winkel die het best bij je past kwa
+                            uitstraling, sfeer en identiteit. Het merk dat de schoen verkoopt, heeft een hele
+                            verhaallijn om zich heen bedacht. De sfeer van een bedrijf is daarom ook heel belangrijk.
+                            Elk bedrijf heeft zijn eigen motto om die sfeer uit te drukken. Die van Nike is bijvoorbeeld
+                            ‘Just do it’ & ‘There is no finish line. Nike is een van de grootste sportmerken die staat
+                            voor het behalen van je doel, no matter what.
+                        </p>
+                        <?php foreach($page->videos() as $video):?>
+                        <?php if($video->id() == 'home/nikes2.mp4'):?>
+                            <video class="image m0" width="100%" height="100%" autoplay muted loop>
+                    <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                    Your browser does not support the video tag.
+                </video>
+                        <?php endif ?>
+                        <?php endforeach ?>
+
+                        <div class="first">
+                        <b>
+
+Chocomel
+</b>
+                        <p> 
+                        Chocomel is ook een goed voorbeeld. Als iemand een glas chocomelk wilt, spreekt bijna niemand het meer uit met een K op het einde. Terwijl dit eigenlijk gewoon de naam is van het merk en niet het product zelf. Chocomel is altijd heel scherp geweest met zijn marketingstrategie.
+                        </p> <p> 
+Een laatste voorbeeld is Coca Cola. Coca Cola was vroeger een drankje waar cocaïne én alcohol in zat en was bedoeld als medicijn voor gewonden die uit de burgeroorlog terugkwamen. Later werd de alcohol illegaal en werd dit vervangen door Suikersiroop. De cocaïne was nog wel aanwezig in het drankje. Vanwege vele aanrand- en verkrachtincidenten bij de vrouwen voelde de nieuwe eigenaar, Asa G. Candler de druk om de cocaïne uit het drankje te halen. Dit deed hij in 1903. </p>
+<p> Tegenwoordig staat Coca cola erom bekend dat hij de kerstman groot heeft gemaakt en 
+een fijne toevoeging is aan elk evenement. Coca cola heeft het slim aangepakt door het drankje te koppelen aan een feestdag. </p>
+                        </div>
+                        <div class="second">
+                        <b>
+
+Aura
+</b>
+                      <p>  In de toekomst gaat de visual branding nog een stap verder. Dan gaat het om het visueel verkopen van je product via een communicatiemiddel als bijv. Whats’app, Instagram en Snapchat. Ook wel aura. Een goed voorbeeld hierbij is Chocomel. Tegenwoordig houdt Chocomel zich tijdens de feestdagen bezig met random letters op het pak. Met deze letters worden grappige woorden gemaakt in de supermarkt en dit delen mensen op social media. Zo wordt er dus gratis reclame gemaakt voor het merk zonder dat mensen het doorhebben. 
+Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedrijf waar je binnenloopt moet gelijk ‘picture-ready’ zijn en een huiselijke sfeer geven. Een klant moet bij het binnenkomen gelijk een uniek en goed gevoel krijgen die ze graag willen delen. Dunkin Donuts is een bedrijf wat dat op dit moment heel goed doet. De nieuwe inrichting is huiselijk industrieel met mooie verlichting. Je kan erbij zitten met je donut en het is gelijk ‘insta-ready.’ Op deze manier maak je weer gratis reclame voor een merk. </p>
+</div>
+
+<div class="gabierow">
+<?php if($image = $page->image('chocomel-1.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image new'>
+                            <?php endif ?>
+
+<?php if($image = $page->image('chocomel-2.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image new hoi'>
+                            <?php endif ?>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <section id="steps">
@@ -140,7 +354,14 @@
                     <?php endif ?>
                     <h1>2. Comfort</h1>
                     <p>
-                    Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven. Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat online gedeeld.
+                        Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een
+                        karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar
+                        zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt
+                        het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor
+                        gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als
+                        Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven.
+                        Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat
+                        online gedeeld.
                     </p>
                 </div>
 
@@ -166,10 +387,15 @@
                     <?php endif ?>
                     <h1>4. Duurzaamheid</h1>
                     <p>
-                        
-                    Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume, waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
-Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke imagoschade oplopen als je erg milieuonvriendelijk produceert. 
-  
+
+                        Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze
+                        is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume,
+                        waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
+                        Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met
+                        de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het
+                        nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke
+                        imagoschade oplopen als je erg milieuonvriendelijk produceert.
+
 
 
                     </p>
@@ -267,7 +493,7 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
                     </p>
                     <div class="info">
                         <?php if($image = $page->image('young.png')): ?>
-                        <img src="<?= $image->url() ?>" alt="" class='image'>
+                        <img src="<?= $image->url() ?>" alt="" class='picture'>
                         <?php endif ?>
                         <div class="personal">
                             <p class="name">Dimitri Philips</p>
@@ -285,7 +511,7 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
                     </p>
                     <div class="info">
                         <?php if($image = $page->image('girl.png')): ?>
-                        <img src="<?= $image->url() ?>" alt="" class='image'>
+                        <img src="<?= $image->url() ?>" alt="" class='picture'>
                         <?php endif ?>
                         <div class="personal">
                             <p class="name">Dionne de Vries</p>
@@ -298,42 +524,6 @@ Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk 
             </div>
         </section>
 
-        <section id="partners">
-            <h1 class="title">Met wie we samenwerken</h1>
-
-
-        </section>
-
-        <section id="footer">
-            <div class="makers">
-                <div class="gab maker">
-                    <?php if($image = $page->image('stap-3.png')): ?>
-                    <img src="<?= $image->url() ?>" alt="" class='makerImage'>
-                    <?php endif ?>
-
-                    <p>Gabriëlle van der Valk</p>
-                    <p>0934432</p>
-                    <a
-                        href="https://www.google.com/maps/place/Van+der+Valk+Hotel+Tilburg/@51.5436568,5.1085848,17z/data=!3m1!4b1!4m8!3m7!1s0x47c6bfbc46a8ae07:0x54c900b2f72e993e!5m2!4m1!1i2!8m2!3d51.5436535!4d5.1107681">Bezoek
-                        me!</a>
-                </div>
-
-                <div class="sam maker">
-                    <?php if($image = $page->image('stap-3.png')): ?>
-                    <img src="<?= $image->url() ?>" alt="" class='makerImage'>
-                    <?php endif ?>
-
-                    <p>Samuël van Velzen</p>
-                    <p>0934432</p>
-                    <a
-                        href="https://www.google.com/maps/place/Hogeschool+Windesheim/@52.4995106,6.077882,17z/data=!3m1!4b1!4m5!3m4!1s0x47c7ded4e818a589:0x68b47bb437213d3b!8m2!3d52.4995074!4d6.0800653">Bezoek
-                        me!</a>
-                </div>
-            </div>
-
-
-
-        </section>
         <script>
         main.init();
         AOS.init();

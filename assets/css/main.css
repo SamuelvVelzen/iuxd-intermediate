@@ -236,16 +236,96 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #whw .question .hiddenContent {
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-#whw .question .hiddenContent p {
+#whw .question .hiddenContent .gabierow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#whw .question .hiddenContent .gabierow > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#whw .question .hiddenContent .text {
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+#whw .question .hiddenContent .text.special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#whw .question .hiddenContent .text.special .first {
+  padding-right: 30px;
+}
+
+#whw .question .hiddenContent .text.special .first,
+#whw .question .hiddenContent .text.special .second {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#whw .question .hiddenContent .text .specialtext {
+  width: 100%;
+}
+
+#whw .question .hiddenContent .text p {
+  margin: 15px 0;
+}
+
+#whw .question .hiddenContent .text ul {
+  margin-left: 15px;
+  list-style-type: decimal;
+}
+
+#whw .question .hiddenContent .text ul li {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#whw .question .hiddenContent .text,
+#whw .question .hiddenContent .image,
+#whw .question .hiddenContent .bigimage {
   margin-top: -10000px;
   -webkit-transition: margin-top 1s;
   transition: margin-top 1s;
 }
 
-#whw .question .hiddenContent.open p {
+#whw .question .hiddenContent.open .text,
+#whw .question .hiddenContent.open .image,
+#whw .question .hiddenContent.open .bigimage {
   margin-top: 30px;
+}
+
+#whw .question .bigimage {
+  width: 100%;
+  background-color: black;
 }
 
 #whw .question .image {
@@ -254,6 +334,23 @@ nav ul .navitem:not(.first) a:hover::after {
       -ms-flex: 1;
           flex: 1;
   max-height: 400px;
+}
+
+#whw .question .image.hoi {
+  padding-left: 30px !important;
+  background-color: white;
+}
+
+#whw .question .image.m0 {
+  margin: 0 !important;
+  background-color: white;
+  min-width: 100%;
+  margin-bottom: 30px !important;
+}
+
+#whw .question .image.new {
+  max-width: 100%;
+  margin: 0 !important;
 }
 
 #whw .question .image:last-child {
@@ -456,9 +553,8 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #workshop .reviewsgroup .review .info .picture {
   display: block;
-  height: 100px;
-  width: 100px;
-  background-color: #151515;
+  width: auto;
+  max-height: 100px;
   border-radius: 100%;
 }
 
@@ -480,79 +576,5 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #workshop .reviewsgroup .review .info .personal .name {
   font-size: 18px;
-}
-
-#partners {
-  display: none;
-  margin: 0 14%;
-}
-
-#partners .title {
-  text-align: center;
-  padding-top: 60px;
-  margin-bottom: 75px;
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 45px;
-}
-
-#footer {
-  display: none;
-  background-color: #151515;
-  padding: 30px;
-}
-
-#footer .makers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: white;
-}
-
-#footer .makers .maker {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-#footer .makers .maker .makerImage {
-  border-radius: 50%;
-}
-
-#footer .makers .maker p {
-  color: white;
-}
-
-#footer .makers .maker a {
-  color: white;
-  text-decoration: none;
-}
-
-#footer .makers .maker a::after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 2px;
-  background-color: white;
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
-}
-
-#footer .makers .maker a:hover::after {
-  width: 100%;
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
 }
 /*# sourceMappingURL=main.css.map */

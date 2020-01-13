@@ -246,23 +246,102 @@ nav {
 
     .hiddenContent {
       overflow: hidden;
+      display: flex;
+      margin: $space2 0;
+      flex-wrap: wrap;
 
-      p {
+      .gabierow {
+        display: flex;
+        flex-direction: row;
+
+        & > * {
+          flex: 1;
+        }
+      }
+
+      .text {
+        padding-left: $space2;
+        padding-right: 0;
+
+        &.special {
+          display: flex;
+          flex-direction: row;
+          padding-left: 0;
+          flex-wrap: wrap;
+
+          .first {
+            padding-right: $space2;
+          }
+
+          .first,
+          .second {
+            flex: 1;
+          }
+        }
+
+        .specialtext {
+          width: 100%;
+        }
+
+        p {
+          margin: $space 0;
+        }
+
+        ul {
+          margin-left: $space;
+          list-style-type: decimal;
+
+          li {
+            font-family: brandon-grotesque, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .text,
+      .image,
+      .bigimage {
         margin-top: -10000px;
         transition: margin-top 1s;
       }
 
       &.open {
-        p {
+        .text,
+        .image,
+        .bigimage {
           margin-top: $space2;
         }
       }
+    }
+
+    .bigimage {
+      width: 100%;
+      background-color: black;
     }
 
     .image {
       background-color: black;
       flex: 1;
       max-height: 400px;
+
+      &.hoi {
+        padding-left: $space2 !important;
+        background-color: $white;
+      }
+
+      &.m0 {
+        margin: 0 !important;
+        background-color: $white;
+        min-width: 100%;
+        margin-bottom: $space2 !important;
+      }
+
+      &.new {
+        max-width: 100%;
+        margin: 0 !important;
+      }
 
       &:last-child {
         margin-left: $space4;
@@ -437,9 +516,8 @@ nav {
 
         .picture {
           display: block;
-          height: 100px;
-          width: 100px;
-          background-color: $black;
+          width: auto;
+          max-height: 100px;
           border-radius: 100%;
         }
 
@@ -453,67 +531,6 @@ nav {
           .name {
             font-size: 18px;
           }
-        }
-      }
-    }
-  }
-}
-
-#partners {
-  display: none;
-  margin: $container;
-
-  .title {
-    text-align: center;
-    padding-top: $space4;
-    margin-bottom: $space5;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 45px;
-  }
-}
-
-#footer {
-  display: none;
-  background-color: $black;
-  padding: $space2;
-
-  .makers {
-    display: flex;
-    flex-direction: column;
-    color: $white;
-
-    .maker {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-
-      .makerImage {
-        border-radius: 50%;
-      }
-
-      p {
-        color: $white;
-      }
-
-      a {
-        color: $white;
-        text-decoration: none;
-
-        &::after {
-          content: "";
-          display: block;
-          width: 0px;
-          height: 2px;
-          background-color: $white;
-          transition: width 0.3s;
-        }
-
-        //on hover after style
-        &:hover::after {
-          width: 100%;
-          transition: width 0.3s;
         }
       }
     }
