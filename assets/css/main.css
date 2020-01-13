@@ -244,6 +244,22 @@ nav ul .navitem:not(.first) a:hover::after {
       flex-wrap: wrap;
 }
 
+#whw .question .hiddenContent .gabierow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#whw .question .hiddenContent .gabierow > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 #whw .question .hiddenContent .text {
   padding-left: 30px;
   padding-right: 0;
@@ -308,7 +324,7 @@ nav ul .navitem:not(.first) a:hover::after {
 }
 
 #whw .question .bigimage {
-  min-width: 100%;
+  width: 100%;
   background-color: black;
 }
 
@@ -318,6 +334,23 @@ nav ul .navitem:not(.first) a:hover::after {
       -ms-flex: 1;
           flex: 1;
   max-height: 400px;
+}
+
+#whw .question .image.hoi {
+  padding-left: 30px !important;
+  background-color: white;
+}
+
+#whw .question .image.m0 {
+  margin: 0 !important;
+  background-color: white;
+  min-width: 100%;
+  margin-bottom: 30px !important;
+}
+
+#whw .question .image.new {
+  max-width: 100%;
+  margin: 0 !important;
 }
 
 #whw .question .image:last-child {

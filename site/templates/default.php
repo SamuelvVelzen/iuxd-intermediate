@@ -24,7 +24,7 @@
     <body>
         <nav>
             <ul>
-                <li class="navitem first"><a href="#">Gabriel en Sam</a></li>
+                <li class="navitem first"><a href="#">Gabrielle en Samuel</a></li>
                 <li class="navitem"><a class="clickableNav" href="#whwTitle">Onderwerpen</a></li>
                 <li class="navitem"><a class="clickableNav" href="#stappenplan">Stappenplan</a></li>
                 <li class="navitem"><a class="clickableNav" href="#examplecase">Voorbeelduitwerking</a></li>
@@ -53,8 +53,8 @@
 
         </section>
 
-        <!-- <section id="whw" data-aos="fade-up"> -->
-        <section id="whw">
+        <section id="whw" data-aos="fade-up">
+        <!-- <section id="whw"> -->
             <h1 id="whwTitle" class="title">Onderwerpen</h1>
 
             <div class="what question">
@@ -247,7 +247,7 @@
                             </p>
 
                             <?php if($image = $page->image('nike1.png')): ?>
-                            <img src="<?= $image->url() ?>" alt="" class='image'>
+                            <img src="<?= $image->url() ?>" alt="" class='image new'>
                             <?php endif ?>
                         </div>
 
@@ -274,7 +274,7 @@
                             </p>
 
                             <?php if($image = $page->image('nike2.png')): ?>
-                            <img src="<?= $image->url() ?>" alt="" class='image'>
+                            <img src="<?= $image->url() ?>" alt="" class='image new'>
                             <?php endif ?>
                         </div>
 
@@ -286,15 +286,45 @@
                             ‘Just do it’ & ‘There is no finish line. Nike is een van de grootste sportmerken die staat
                             voor het behalen van je doel, no matter what.
                         </p>
-
                         <?php foreach($page->videos() as $video):?>
-                        <?php if($video->id() == 'home/nikes.mp4'):?>
-                        <video width="100%" height="100%" autoplay muted loop>
-                            <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
-                            Your browser does not support the video tag.
-                        </video>
+                        <?php if($video->id() == 'home/nikes2.mp4'):?>
+                            <video class="image m0" width="100%" height="100%" autoplay muted loop>
+                    <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                    Your browser does not support the video tag.
+                </video>
                         <?php endif ?>
                         <?php endforeach ?>
+
+                        <div class="first">
+                        <b>
+
+Chocomel
+</b>
+                        <p> 
+                        Chocomel is ook een goed voorbeeld. Als iemand een glas chocomelk wilt, spreekt bijna niemand het meer uit met een K op het einde. Terwijl dit eigenlijk gewoon de naam is van het merk en niet het product zelf. Chocomel is altijd heel scherp geweest met zijn marketingstrategie.
+                        </p> <p> 
+Een laatste voorbeeld is Coca Cola. Coca Cola was vroeger een drankje waar cocaïne én alcohol in zat en was bedoeld als medicijn voor gewonden die uit de burgeroorlog terugkwamen. Later werd de alcohol illegaal en werd dit vervangen door Suikersiroop. De cocaïne was nog wel aanwezig in het drankje. Vanwege vele aanrand- en verkrachtincidenten bij de vrouwen voelde de nieuwe eigenaar, Asa G. Candler de druk om de cocaïne uit het drankje te halen. Dit deed hij in 1903. </p>
+<p> Tegenwoordig staat Coca cola erom bekend dat hij de kerstman groot heeft gemaakt en 
+een fijne toevoeging is aan elk evenement. Coca cola heeft het slim aangepakt door het drankje te koppelen aan een feestdag. </p>
+                        </div>
+                        <div class="second">
+                        <b>
+
+Aura
+</b>
+                      <p>  In de toekomst gaat de visual branding nog een stap verder. Dan gaat het om het visueel verkopen van je product via een communicatiemiddel als bijv. Whats’app, Instagram en Snapchat. Ook wel aura. Een goed voorbeeld hierbij is Chocomel. Tegenwoordig houdt Chocomel zich tijdens de feestdagen bezig met random letters op het pak. Met deze letters worden grappige woorden gemaakt in de supermarkt en dit delen mensen op social media. Zo wordt er dus gratis reclame gemaakt voor het merk zonder dat mensen het doorhebben. 
+Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedrijf waar je binnenloopt moet gelijk ‘picture-ready’ zijn en een huiselijke sfeer geven. Een klant moet bij het binnenkomen gelijk een uniek en goed gevoel krijgen die ze graag willen delen. Dunkin Donuts is een bedrijf wat dat op dit moment heel goed doet. De nieuwe inrichting is huiselijk industrieel met mooie verlichting. Je kan erbij zitten met je donut en het is gelijk ‘insta-ready.’ Op deze manier maak je weer gratis reclame voor een merk. </p>
+</div>
+
+<div class="gabierow">
+<?php if($image = $page->image('chocomel-1.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image new'>
+                            <?php endif ?>
+
+<?php if($image = $page->image('chocomel-2.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image new hoi'>
+                            <?php endif ?>
+                        </div>
                     </div>
                 </div>
         </section>
