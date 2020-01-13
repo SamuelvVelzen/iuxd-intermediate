@@ -71,7 +71,23 @@
                 <?php endif ?>
 
                 <div id="whatContent" class="hiddenContent">
-                    <p><?= $page->What_content() ?></p>
+
+                    <?php if($image = $page->image('mock-up-wat.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
+
+                    <div class="text right">
+                        <p>Er zal dieper ingegaan worden op de rol van visual branding daarnaast zal er ook gekeken worden naar de verschillende tools die erbij komen kijken hoe visual branding wordt opgezet.</p><p>
+
+    **Rol**
+
+                    </b><p>De rol van visual branding zorgt ervoor dat een bedrijf zich uniek kan positioneren in de markt. Met behulp van visual branding kan een bedrijf zich promoten naar het publiek waardoor potentiele kopers aangetrokken kunnen worden.</p><p>
+
+    **Tools**
+
+                    </b><p>Om een visual branding te creëren worden verschillende programma’s gebruikt om dit tot stand te laten komen. Hiermee kunnen verschillende mensen ervoor zorgen dat er een goede visual branding ontstaat.</p>
+                    </div>
+
                 </div>
             </div>
 
@@ -278,7 +294,7 @@
                     </p>
                     <div class="info">
                         <?php if($image = $page->image('young.png')): ?>
-                        <img src="<?= $image->url() ?>" alt="" class='image'>
+                        <img src="<?= $image->url() ?>" alt="" class='picture'>
                         <?php endif ?>
                         <div class="personal">
                             <p class="name">Dimitri Philips</p>
@@ -296,7 +312,7 @@
                     </p>
                     <div class="info">
                         <?php if($image = $page->image('girl.png')): ?>
-                        <img src="<?= $image->url() ?>" alt="" class='image'>
+                        <img src="<?= $image->url() ?>" alt="" class='picture'>
                         <?php endif ?>
                         <div class="personal">
                             <p class="name">Dionne de Vries</p>
@@ -309,64 +325,6 @@
             </div>
         </section>
 
-        <section id="partners">
-            <h1 class="title">Met wie we samenwerken</h1>
-
-            <div class="brands">
-                <?php if($image = $page->image('dunking-donuts.png')): ?>
-                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
-                <?php endif ?>
-
-                <?php if($image = $page->image('dunking-donuts.png')): ?>
-                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
-                <?php endif ?>
-
-                <?php if($image = $page->image('dunking-donuts.png')): ?>
-                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
-                <?php endif ?>
-
-                <?php if($image = $page->image('dunking-donuts.png')): ?>
-                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
-                <?php endif ?>
-
-                <?php if($image = $page->image('dunking-donuts.png')): ?>
-                <img src="<?= $image->url() ?>" alt="" class='brandImage'>
-                <?php endif ?>
-
-
-            </div>
-        </section>
-
-        <section id="footer">
-            <div class="makers">
-                <div class="gab maker">
-                    <?php if($image = $page->image('dunking-donuts.png')): ?>
-                    <img src="<?= $image->url() ?>" alt="" class='makerImage'>
-                    <?php endif ?>
-
-                    <p>Gabriëlle van der Valk</p>
-                    <p>0934432</p>
-                    <a
-                        href="https://www.google.com/maps/place/Van+der+Valk+Hotel+Tilburg/@51.5436568,5.1085848,17z/data=!3m1!4b1!4m8!3m7!1s0x47c6bfbc46a8ae07:0x54c900b2f72e993e!5m2!4m1!1i2!8m2!3d51.5436535!4d5.1107681">Bezoek
-                        me!</a>
-                </div>
-
-                <div class="sam maker">
-                    <?php if($image = $page->image('me.jpg')): ?>
-                    <img src="<?= $image->url() ?>" alt="" class='makerImage'>
-                    <?php endif ?>
-
-                    <p>Samuël van Velzen</p>
-                    <p>0934432</p>
-                    <a
-                        href="https://www.google.com/maps/place/Hogeschool+Windesheim/@52.4995106,6.077882,17z/data=!3m1!4b1!4m5!3m4!1s0x47c7ded4e818a589:0x68b47bb437213d3b!8m2!3d52.4995074!4d6.0800653">Bezoek
-                        me!</a>
-                </div>
-            </div>
-
-
-
-        </section>
         <script>
         main.init();
         AOS.init();

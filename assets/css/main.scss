@@ -246,14 +246,24 @@ nav {
 
     .hiddenContent {
       overflow: hidden;
+      display: flex;
+      margin: $space2 0;
+      flex-wrap: wrap;
 
-      p {
+      .text {
+        padding-left: $space2;
+        padding-right: 0;
+      }
+
+      p,
+      .image {
         margin-top: -10000px;
         transition: margin-top 1s;
       }
 
       &.open {
-        p {
+        p,
+        .image {
           margin-top: $space2;
         }
       }
@@ -439,7 +449,6 @@ nav {
           display: block;
           width: auto;
           max-height: 100px;
-          background-color: $black;
           border-radius: 100%;
         }
 
@@ -453,82 +462,6 @@ nav {
           .name {
             font-size: 18px;
           }
-        }
-      }
-    }
-  }
-}
-
-#partners {
-  margin: $container;
-
-  .title {
-    text-align: center;
-    padding-top: $space4;
-    margin-bottom: $space5;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 45px;
-  }
-
-  .brands {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    .brandImage {
-      max-width: 200px;
-      height: auto;
-    }
-  }
-}
-
-#footer {
-  background-color: $black;
-  padding: $space2 14%;
-  margin-top: $space4;
-
-  .makers {
-    display: flex;
-    flex-direction: column;
-    color: $white;
-
-    .maker {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-
-      .makerImage {
-        border-radius: 50%;
-        max-width: 100px;
-        height: 100px;
-        flex: 1;
-      }
-
-      p {
-        color: $white;
-        flex: 1;
-      }
-
-      a {
-        color: $white;
-        text-decoration: none;
-
-        &::after {
-          content: "";
-          display: block;
-          width: 0px;
-          height: 2px;
-          background-color: $white;
-          transition: width 0.3s;
-        }
-
-        //on hover after style
-        &:hover::after {
-          width: 100%;
-          transition: width 0.3s;
         }
       }
     }
