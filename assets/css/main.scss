@@ -253,20 +253,63 @@ nav {
       .text {
         padding-left: $space2;
         padding-right: 0;
+
+        &.special {
+          display: flex;
+          flex-direction: row;
+          padding-left: 0;
+          flex-wrap: wrap;
+
+          .first {
+            padding-right: $space2;
+          }
+
+          .first,
+          .second {
+            flex: 1;
+          }
+        }
+
+        .specialtext {
+          width: 100%;
+        }
+
+        p {
+          margin: $space 0;
+        }
+
+        ul {
+          margin-left: $space;
+          list-style-type: decimal;
+
+          li {
+            font-family: brandon-grotesque, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 18px;
+          }
+        }
       }
 
-      p,
-      .image {
+      .text,
+      .image,
+      .bigimage {
         margin-top: -10000px;
         transition: margin-top 1s;
       }
 
       &.open {
-        p,
-        .image {
+        .text,
+        .image,
+        .bigimage {
           margin-top: $space2;
         }
       }
+    }
+
+    .bigimage {
+      min-width: 100%;
+      background-color: black;
     }
 
     .image {

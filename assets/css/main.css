@@ -249,16 +249,67 @@ nav ul .navitem:not(.first) a:hover::after {
   padding-right: 0;
 }
 
-#whw .question .hiddenContent p,
-#whw .question .hiddenContent .image {
+#whw .question .hiddenContent .text.special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#whw .question .hiddenContent .text.special .first {
+  padding-right: 30px;
+}
+
+#whw .question .hiddenContent .text.special .first,
+#whw .question .hiddenContent .text.special .second {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#whw .question .hiddenContent .text .specialtext {
+  width: 100%;
+}
+
+#whw .question .hiddenContent .text p {
+  margin: 15px 0;
+}
+
+#whw .question .hiddenContent .text ul {
+  margin-left: 15px;
+  list-style-type: decimal;
+}
+
+#whw .question .hiddenContent .text ul li {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#whw .question .hiddenContent .text,
+#whw .question .hiddenContent .image,
+#whw .question .hiddenContent .bigimage {
   margin-top: -10000px;
   -webkit-transition: margin-top 1s;
   transition: margin-top 1s;
 }
 
-#whw .question .hiddenContent.open p,
-#whw .question .hiddenContent.open .image {
+#whw .question .hiddenContent.open .text,
+#whw .question .hiddenContent.open .image,
+#whw .question .hiddenContent.open .bigimage {
   margin-top: 30px;
+}
+
+#whw .question .bigimage {
+  min-width: 100%;
+  background-color: black;
 }
 
 #whw .question .image {
