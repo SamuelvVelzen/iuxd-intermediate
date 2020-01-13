@@ -492,8 +492,7 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #workshop {
   background-color: lightgrey;
-  margin: 0 7%;
-  padding: 0 7%;
+  padding: 0 14%;
   padding-bottom: 45px;
 }
 
