@@ -72,22 +72,92 @@
 
                 <div id="whatContent" class="hiddenContent">
 
-                    <?php if($image = $page->image('mock-up-wat.png')): ?>
-                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php if($image = $page->image('mindmap.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='bigimage'>
                     <?php endif ?>
 
-                    <div class="text right">
-                        <p>Er zal dieper ingegaan worden op de rol van visual branding daarnaast zal er ook gekeken worden naar de verschillende tools die erbij komen kijken hoe visual branding wordt opgezet.</p><p>
+                    <div class="text special">
 
-    **Rol**
+                        <div class="first">
+                            <b>
 
-                    </b><p>De rol van visual branding zorgt ervoor dat een bedrijf zich uniek kan positioneren in de markt. Met behulp van visual branding kan een bedrijf zich promoten naar het publiek waardoor potentiele kopers aangetrokken kunnen worden.</p><p>
+                                Inleiding
+                            </b>
+                            <p>
+                                Als eerst gaan we kijken naar de ontwikkeling van een product in een ontwerpproces.
+                                Hierna
+                                zullen we gaan kijken wat nou een goed product is. En als laatst zullen we de
+                                verschillende
+                                online resources behandelen.</p>
+                            <b>
 
-    **Tools**
+                                Ontwerpproces
+                            </b>
+                            <p>
+                                Het ontwerpproces bestaat uit 8 verschillende stappen. Hiermee zal een idee uitgewerkt
+                                worden tot een goede visual branding.
 
-                    </b><p>Om een visual branding te creëren worden verschillende programma’s gebruikt om dit tot stand te laten komen. Hiermee kunnen verschillende mensen ervoor zorgen dat er een goede visual branding ontstaat.</p>
+                                <ul>
+                                    <li> Als eerst zal er onderzoek gedaan worden met behulp van moodboards of
+                                        mindmapping. Aan de
+                                        hand van dit onderzoek zullen er meerdere schetsen gemaakt worden.</li>
+                                    <li> Deze schetsen zullen ingeleverd worden bij de opdrachtgever zodat er feedback
+                                        over
+                                        gegeven
+                                        kan worden.</li>
+                                    <li>De overgebleven schetsen zullen uitgewerkt worden in zwart en wit.</li>
+                                    <li>Deze schetsen zullen ingeleverd worden bij de opdrachtgever voor meer feedback.
+                                        De beste
+                                        variant zal uitgekozen worden.</li>
+                                    <li>Deze versie zal verder uitgewerkt worden met meer zwart en witte varianten. Ook
+                                        wordt er
+                                        gekeken naar de juiste spacing.</li>
+                                    <li>Uit al deze zwart en witte varianten zal de juiste gekozen worden door de
+                                        opdrachtgever.</li>
+                                    <li>Als laatst zal er een presentatie gegeven worden en zal er gekeken worden hoe
+                                        het logo op
+                                        verschillende producten staat. Zoals auto’s, petten, mokken, business cards of
+                                        huisstijls.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="second"><b>
+                                Goed product
+                            </b>
+                            <p>
+                                De kenmerken van een goed product kunnen alsvolgt beschreven worden:
+                                - Duidelijk merkdoel en positionering in de markt
+                                - Grondig marktonderzoek
+                                - Aangename merkpersoonlijkheid
+                                - Merkwaardig logo
+                                - Aantrekkelijk kleurenpalet
+                                - Professioneel typografie
+                                - Ondersteundende afbeeldingen in overeenkomst met het merk
+                            </p>
+                            <b>
+                                Online resources
+                            </b>
+                            <p>
+                                Als laatst kan een profesional de volgende online resources gebruiken om een succesvol
+                                visual
+                                branding op te kunnen zetten.
+                            </p>
+                            <p>
+                                Ten eerste moet er tijdens het onderzoek gekeken worden naar de huidige website / visual
+                                branding, zodat voor de huidige klanten de vertrouwelijkheid van het bedrijf niet
+                                veranderd.
+                            </p>
+                            <p>
+                                Daarnaast moet er onderzoeken gedaan worden op het internet over soortgelijke producten
+                                en
+                                hoe
+                                de concurrentie deze producten op de markt brengt.</p>
+                            <p>
+                        </div>
+
                     </div>
-
                 </div>
             </div>
 
@@ -106,7 +176,35 @@
                 <?php endif ?>
 
                 <div id="whyContent" class="hiddenContent">
-                    <p><?= $page->Why_content() ?></p>
+                    <?php if($image = $page->image('merkwijzer-waarom.png')): ?>
+                    <img src="<?= $image->url() ?>" alt="" class='image'>
+                    <?php endif ?>
+
+                    <div class="text right">
+                        <b>
+
+                            Inleiding
+                        </b>
+                        <p>Er zal dieper ingegaan worden op de rol van visual branding daarnaast zal er ook gekeken
+                            worden naar de verschillende tools die erbij komen kijken hoe visual branding wordt opgezet.
+                        </p>
+                        <b>
+
+                            Rol
+
+                        </b>
+                        <p>De rol van visual branding zorgt ervoor dat een bedrijf zich uniek kan positioneren in de
+                            markt. Met behulp van visual branding kan een bedrijf zich promoten naar het publiek
+                            waardoor potentiele kopers aangetrokken kunnen worden.</p>
+                        <b>
+
+                            Tools
+
+                        </b>
+                        <p>Om een visual branding te creëren worden verschillende programma’s gebruikt om dit
+                            tot stand te laten komen. Hiermee kunnen verschillende mensen ervoor zorgen dat er
+                            een goede visual branding ontstaat.</p>
+                    </div>
                 </div>
             </div>
 
@@ -125,9 +223,80 @@
 
 
                 <div id="howContent" class="hiddenContent">
-                    <p><?= $page->how_content() ?></p>
+                    <div class="text special">
+                        <div class="first">
+                            <b>
+
+                                Inleiding
+                            </b>
+                            <p>
+                                Hoe de visuele identiteit van een bedrijf wordt ervaren ligt dichtbij hoe een
+                                persoon een eigen
+                                identiteit ervaart. Wat maakt je wie je bent en hoe kom je over. Dat is hét
+                                belangrijkste
+                                onderdeel als het gaat om onderscheiding.
+                                Een visuele bedrijfsidentiteit laat zien wat je doet als bedrijf, wat je merkwaarden
+                                zijn en
+                                wat
+                                voor verhaal je vertelt.
+                            </p>
+                            <p>
+                                Zodra je erachter bent gekomen wat de merkwaarden zijn, kan je je merkidentiteit gaan
+                                visualiseren. Dit kan je illustreren in programma’s als Illustrator, Photoshop & Sketch.
+                                Tools als Premiere Pro en After Effect zijn handig bij bewegende visualisaties.
+                            </p>
+
+                            <?php if($image = $page->image('nike1.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image'>
+                            <?php endif ?>
+                        </div>
+
+                        <div class="second">
+                            <b>
+
+                                Promoten
+                            </b>
+                            <p>
+                                Social media kanalen als Instagram en Linked-In zijn handig om je product te promoten.
+                                Facebook
+                                kan je eventueel inzetten als je doelgroep wat ouder is, maar dit social kanaal wordt
+                                steeds
+                                minder populair, dus in de toekomst minder effectief om in te zetten als tool.
+                            </p>
+                            <p>
+                                Nu de basisrichtlijnen in kaart zijn gebracht bij het oprichten van een merkidentiteit,
+                                gaan
+                                we
+                                nu verder op de branding zelf.
+                                Vroeger werd een product verkocht om het product zelf. Als voorbeeld, vroeger als je
+                                schoenen
+                                waren versleten, haalde je pas nieuwe schoenen. Ze hadden een functioneel doeleinde.
+                            </p>
+
+                            <?php if($image = $page->image('nike2.png')): ?>
+                            <img src="<?= $image->url() ?>" alt="" class='image'>
+                            <?php endif ?>
+                        </div>
+
+                        <p class="specialtext">
+                            In de tijd waar we nu in leven, haal je schoenen bij een winkel die het best bij je past kwa
+                            uitstraling, sfeer en identiteit. Het merk dat de schoen verkoopt, heeft een hele
+                            verhaallijn om zich heen bedacht. De sfeer van een bedrijf is daarom ook heel belangrijk.
+                            Elk bedrijf heeft zijn eigen motto om die sfeer uit te drukken. Die van Nike is bijvoorbeeld
+                            ‘Just do it’ & ‘There is no finish line. Nike is een van de grootste sportmerken die staat
+                            voor het behalen van je doel, no matter what.
+                        </p>
+
+                        <?php foreach($page->videos() as $video):?>
+                        <?php if($video->id() == 'home/nikes.mp4'):?>
+                        <video width="100%" height="100%" autoplay muted loop>
+                            <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                            Your browser does not support the video tag.
+                        </video>
+                        <?php endif ?>
+                        <?php endforeach ?>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <section id="steps">
