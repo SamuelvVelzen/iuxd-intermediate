@@ -27,9 +27,15 @@ var main = (function() {
 
     if (content.classList.contains("open")) {
       content.classList.remove("open");
+      el.innerText = "Lees meer";
+      el.style.width = "153px";
     } else {
       content.classList.add("open");
+      el.innerText = "Lees minder";
+      el.style.width = "171px";
     }
+
+    console.log(el.html);
   };
 
   addEvents = function() {

@@ -44,6 +44,7 @@ $mobile: 540px;
   font-family: $fonts;
   color: $black;
   letter-spacing: 1px;
+  font-size: 18px;
 }
 
 b {
@@ -476,8 +477,7 @@ nav {
 
 #workshop {
   background-color: $grey;
-  margin: 0 7%;
-  padding: 0 7%;
+  padding: $container;
   padding-bottom: $space3;
 
   .title {
