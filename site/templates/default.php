@@ -567,7 +567,17 @@
 
             <ul>
                 <li>
-
+                    Butler, N. (2019, 13 november). How to Create a Powerful Brand Identity (A Step-by-Step Guide).
+                    Geraadpleegd op 26 januari 2020, van https://www.columnfivemedia.com/how-to-create-a-brand-identity
+                </li>
+                <li>
+                    Tubik Studio. (2018, 21 juni). 6 Creative Stages of Branding Design: Step-by-Step
+                    Guide. Geraadpleegd op 15 oktober 2019, van
+                    https://medium.com/@tubikstudio/6-creative-stages-of-branding-design-step-by-step-guide-be557fd329fd
+                </li>
+                <li>
+                    Building Out Your Visual Brand. (z.d.). Geraadpleegd op 15 oktober 2019, van
+                    https://blogs.spectrio.com/building-out-your-visual-brand
                 </li>
             </ul>
         </section>
