@@ -360,9 +360,7 @@
                     <?php endif ?>
                     <h1>1. Brand experience</h1>
                     <p>
-                        Bekende en internationale merken weten hoe belangrijk merkbeleving is. Als mensen een positieve
-                        associatie bij je bedrijf hebben, zullen zij sneller tot een aankoop overgaan – zowel online als
-                        offline. Het creëren van de juiste brand experience is daarom altijd het uitgangspunt van visual
+                        Het creëren van de juiste brand experience is altijd het uitgangspunt van visual
                         branding, zeker bij fysieke contactmomenten. De verhaallijn eromheen, de quotes, social accounts
                         en de visuals moeten tot in de puntjes (of pixels) verzorgd zijn. Samen moet het één consistent
                         verhaal worden. Alleen zo creëer je als merk het juiste gevoel bij je doelgroep. Een voorbeeld
@@ -376,14 +374,10 @@
                     <?php endif ?>
                     <h1>2. Comfort</h1>
                     <p>
-                        Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een
-                        karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar
-                        zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt
-                        het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor
+                        Een winkel of restaurant moet tegenwoordig ‘instagram ready’ zijn. Een foto zou zo het internet op moeten kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor
                         gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als
                         Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven.
-                        Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat
-                        online gedeeld.
+                        Chocomel heeft dit bijv. ingezet bij de Chocomel letters. 
                     </p>
                 </div>
 
@@ -393,9 +387,7 @@
                     <?php endif ?>
                     <h1>3. Flexibiliteit</h1>
                     <p>
-                        Om de juiste merkbeleving en comfort te creëren, verlangen brandmanagers van sterke merken een
-                        grote mate van flexibiliteit in hun visuele communicatie. Ze willen op ieder moment het passende
-                        verhaal kunnen vertellen. Een merk moet eigenlijk op elk moment toepasbaar zijn. Met dit
+                        Een merk moet op elk moment van een jaar zijn/haar verhaal kunnen vertellen. Met dit
                         bedoelen we dat een merk visueel toepasbaar moet zijn op bijv. de seizoenen, feestdagen, back to
                         school dagen, maandelijkse evenementen, sportevenementen (denk aan de olympische spelen, etc
                         etc. Zo speelt Apple bijv. in op de back to school dagen, door extra korting te geven in de
@@ -410,13 +402,10 @@
                     <h1>4. Duurzaamheid</h1>
                     <p>
 
-                        Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze
-                        is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume,
-                        waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
                         Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met
                         de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het
                         nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke
-                        imagoschade oplopen als je erg milieuonvriendelijk produceert.
+                        imagoschade oplopen als je erg milieuonvriendelijk produceert. Mc Donalds heeft dit bijv. gedaan door o.a. het logo groen te maken i.p.v. rood.
 
 
 
