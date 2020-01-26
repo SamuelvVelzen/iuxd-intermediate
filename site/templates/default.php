@@ -568,6 +568,61 @@
                     Building Out Your Visual Brand. (z.d.). Geraadpleegd op 15 oktober 2019, van
                     https://blogs.spectrio.com/building-out-your-visual-brand
                 </li>
+
+                </li>
+
+                4 manieren waarop sterke merken zich met visual branding onderscheiden. (z.d.). Geraadpleegd op 15
+                oktober 2019, van
+                https://www.marketingtribune.nl/design/weblog/2017/04/4-manieren-waarop-sterke-merken-zich-met-visual-branding-onderscheiden/index.xml
+                </li>
+                <li>
+                    Visual branding » Brandstory. (z.d.-b). Geraadpleegd op 15 oktober 2019, van
+                    https://www.brandstory.nl/visual-branding/
+                </li>
+                <li>
+                    Nike’s “Just do it” slogan is based on a murderer’s last words, says Dan Wieden. (2017, 16 januari).
+                    Geraadpleegd op 15 oktober 2019, van
+                    https://www.dezeen.com/2015/03/14/nike-just-do-it-slogan-last-words-murderer-gary-gilmore-dan-wieden-kennedy/
+                </li>
+                <li>
+                    Knack Weekend. (2015, 19 augustus). Mysterie van de dag: waarom bevat Coca-Cola geen cocaïne
+                    meer? Geraadpleegd op 15 oktober 2019, van
+                    https://weekend.knack.be/lifestyle/culinair/mysterie-van-de-dag-waarom-bevat-coca-cola-geen-cocaine-meer/article-normal-462809.html?cookie_check=1573735534
+                </li>
+                <li>
+                    Zo werd Coca-Cola groot. (z.d.). Geraadpleegd op 15 oktober 2019, van
+                    https://www.sprout.nl/artikel/zo-werd-coca-cola-groot
+                </li>
+                <li>
+                    Poster, There Is No Finish Line, 1977. (z.d.). Geraadpleegd op 15 oktober 2019, van
+                    https://collection.cooperhewitt.org/objects/18617491/#image-rights
+                </li>
+                <li>
+                    YouTube. (z.d.). Geraadpleegd op 15 oktober 2019, van https://www.youtube.com/watch?v=KQnaqhNSvC0
+                </li>
+                <li>
+                    YouTube. (z.d.-b). Geraadpleegd op 15 oktober 2019, van https://www.youtube.com/watch?v=1TQv9fGfQWY
+                </li>
+                <li>
+                    YouTube. (z.d.-c). Geraadpleegd op 15 oktober 2019, van https://www.youtube.com/watch?v=5_znFPj5Lis
+                </li>
+                <li>
+                    All Free Mockups. (z.d.). Geraadpleegd op 20 december 2019, van
+                    https://www.mockupworld.co/all-mockups/
+                </li>
+                <li>
+                    Beautiful Free Images & Pictures. (z.d.). Geraadpleegd op 19,20,21 december 2019, van
+                    https://unsplash.com/ meerdere afbeeldingen zijn van Unsplash
+                </li>
+
+                <li>
+                    van Gompel, M. (2014, 20 oktober). RET-reizigers krijgen kortingsbonnen voor inleveren afval.
+                    Geraadpleegd op 20 december 2019, van
+                    https://www.ovpro.nl/metro/2014/10/20/ret-reizigers-krijgen-kortingsbonnen-voor-inleveren-afval/?gdpr=accept
+                </li>
+                <li>
+                    Flaticon, the largest database of free vector icons. (z.d.). Geraadpleegd op 20 december 2019, van https://www.flaticon.com
+                </li>
             </ul>
         </section>
 

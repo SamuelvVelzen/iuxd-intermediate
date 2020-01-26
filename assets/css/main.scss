@@ -553,4 +553,13 @@ nav {
     font-style: normal;
     font-size: 45px;
   }
+
+  ul {
+    text-align: center;
+    list-style-type: none;
+
+    li {
+      margin-bottom: $space2;
+    }
+  }
 }

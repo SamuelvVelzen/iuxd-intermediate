@@ -595,4 +595,13 @@ nav ul .navitem:not(.first) a:hover::after {
   font-style: normal;
   font-size: 45px;
 }
+
+#sources ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+#sources ul li {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */
