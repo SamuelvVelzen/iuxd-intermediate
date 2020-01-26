@@ -128,13 +128,29 @@
                             </b>
                             <p>
                                 De kenmerken van een goed product kunnen alsvolgt beschreven worden:
-                                - Duidelijk merkdoel en positionering in de markt
-                                - Grondig marktonderzoek
-                                - Aangename merkpersoonlijkheid
-                                - Merkwaardig logo
-                                - Aantrekkelijk kleurenpalet
-                                - Professioneel typografie
-                                - Ondersteundende afbeeldingen in overeenkomst met het merk
+                                <ul>
+                                    <li>
+                                        Duidelijk merkdoel en positionering in de markt
+                                    </li>
+                                    <li>
+                                        Grondig marktonderzoek
+                                    </li>
+                                    <li>
+                                        Aangename merkpersoonlijkheid
+                                    </li>
+                                    <li>
+                                        Merkwaardig logo
+                                    </li>
+                                    <li>
+                                        Aantrekkelijk kleurenpalet
+                                    </li>
+                                    <li>
+                                        Professioneel typografie
+                                    </li>
+                                    <li>
+                                        Ondersteundende afbeeldingen in overeenkomst met het merk
+                                    </li>
+                                </ul>
                             </p>
                             <b>
                                 Online resources
@@ -538,7 +554,11 @@
         <section id="sources">
             <h1 class="title">Bronvermelding</h1>
 
+            <ul>
+                <li>
 
+                </li>
+            </ul>
         </section>
 
         <script>

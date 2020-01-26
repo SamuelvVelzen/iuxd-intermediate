@@ -289,7 +289,7 @@ nav {
         }
 
         ul {
-          margin-left: $space;
+          margin-left: $space2;
           list-style-type: decimal;
 
           li {
@@ -306,6 +306,7 @@ nav {
       .bigimage {
         margin-top: -10000px;
         transition: margin-top 1s;
+        height: auto;
       }
 
       &.open {
