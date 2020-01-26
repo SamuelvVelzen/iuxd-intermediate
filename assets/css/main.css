@@ -19,8 +19,10 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  font-family: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   color: #151515;
   letter-spacing: 1px;
   font-size: 18px;
@@ -49,8 +51,8 @@ nav ul {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   padding: 20px;
   z-index: 10;
 }
@@ -100,7 +102,7 @@ nav ul .navitem:not(.first) a:hover::after {
 #intro video {
   height: 100vh;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 #intro div {
@@ -109,11 +111,13 @@ nav ul .navitem:not(.first) a:hover::after {
   width: 40%;
   margin: 0 14%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #intro div .titelpage {
-  font-family: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "ProximaNovaRegular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   font-size: 70px;
   color: #fbd87e;
   padding-bottom: 20px;
@@ -176,20 +180,20 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   margin: 30px 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #whw .question .text {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-right: 15px;
 }
 
@@ -242,7 +246,7 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   margin: 30px 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #whw .question .hiddenContent .gabierow {
@@ -251,14 +255,14 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 #whw .question .hiddenContent .gabierow > * {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 #whw .question .hiddenContent .text {
@@ -272,11 +276,11 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   padding-left: 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #whw .question .hiddenContent .text.special .first {
@@ -286,8 +290,8 @@ nav ul .navitem:not(.first) a:hover::after {
 #whw .question .hiddenContent .text.special .first,
 #whw .question .hiddenContent .text.special .second {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 #whw .question .hiddenContent .text .specialtext {
@@ -332,8 +336,8 @@ nav ul .navitem:not(.first) a:hover::after {
 #whw .question .image {
   background-color: black;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   max-height: 400px;
 }
 
@@ -379,10 +383,10 @@ nav ul .navitem:not(.first) a:hover::after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #steps .stepscontainer .step {
@@ -440,7 +444,7 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   margin: 30px 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #voorbeelduitwerking .examplecasestep.right .text {
@@ -450,19 +454,19 @@ nav ul .navitem:not(.first) a:hover::after {
 
 #voorbeelduitwerking .examplecasestep .text {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-right: 15px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #voorbeelduitwerking .examplecasestep .text .title {
@@ -470,6 +474,7 @@ nav ul .navitem:not(.first) a:hover::after {
   font-family: "ProximaNovaBold";
   font-size: 35px;
   margin-bottom: 30px;
+  padding-top: 0;
 }
 
 #voorbeelduitwerking .examplecasestep .text p {
@@ -482,8 +487,8 @@ nav ul .navitem:not(.first) a:hover::after {
 #voorbeelduitwerking .examplecasestep .image {
   background-color: black;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   max-height: 400px;
 }
 
@@ -514,21 +519,21 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 #workshop .reviewsgroup .review {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding: 15px;
 }
 
@@ -546,8 +551,8 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   margin-top: auto;
 }
 
@@ -564,13 +569,13 @@ nav ul .navitem:not(.first) a:hover::after {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-line-pack: end;
-      align-content: flex-end;
+  align-content: flex-end;
   margin-left: 15px;
 }
 
