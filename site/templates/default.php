@@ -54,7 +54,7 @@
         </section>
 
         <section id="whw" data-aos="fade-up">
-        <!-- <section id="whw"> -->
+            <!-- <section id="whw"> -->
             <h1 id="whwTitle" class="title">Onderwerpen</h1>
 
             <div class="what question">
@@ -128,13 +128,29 @@
                             </b>
                             <p>
                                 De kenmerken van een goed product kunnen alsvolgt beschreven worden:
-                                - Duidelijk merkdoel en positionering in de markt
-                                - Grondig marktonderzoek
-                                - Aangename merkpersoonlijkheid
-                                - Merkwaardig logo
-                                - Aantrekkelijk kleurenpalet
-                                - Professioneel typografie
-                                - Ondersteundende afbeeldingen in overeenkomst met het merk
+                                <ul>
+                                    <li>
+                                        Duidelijk merkdoel en positionering in de markt
+                                    </li>
+                                    <li>
+                                        Grondig marktonderzoek
+                                    </li>
+                                    <li>
+                                        Aangename merkpersoonlijkheid
+                                    </li>
+                                    <li>
+                                        Merkwaardig logo
+                                    </li>
+                                    <li>
+                                        Aantrekkelijk kleurenpalet
+                                    </li>
+                                    <li>
+                                        Professioneel typografie
+                                    </li>
+                                    <li>
+                                        Ondersteundende afbeeldingen in overeenkomst met het merk
+                                    </li>
+                                </ul>
                             </p>
                             <b>
                                 Online resources
@@ -288,40 +304,62 @@
                         </p>
                         <?php foreach($page->videos() as $video):?>
                         <?php if($video->id() == 'home/nikes2.mp4'):?>
-                            <video class="image m0" width="100%" height="100%" autoplay muted loop>
-                    <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
-                    Your browser does not support the video tag.
-                </video>
+                        <video class="image m0" width="100%" height="100%" autoplay muted loop>
+                            <source src="<?= $video->url() ?>" type="<?= $video->mime() ?>">
+                            Your browser does not support the video tag.
+                        </video>
                         <?php endif ?>
                         <?php endforeach ?>
 
                         <div class="first">
-                        <b>
+                            <b>
 
-Chocomel
-</b>
-                        <p> 
-                        Chocomel is ook een goed voorbeeld. Als iemand een glas chocomelk wilt, spreekt bijna niemand het meer uit met een K op het einde. Terwijl dit eigenlijk gewoon de naam is van het merk en niet het product zelf. Chocomel is altijd heel scherp geweest met zijn marketingstrategie.
-                        </p> <p> 
-Een laatste voorbeeld is Coca Cola. Coca Cola was vroeger een drankje waar cocaïne én alcohol in zat en was bedoeld als medicijn voor gewonden die uit de burgeroorlog terugkwamen. Later werd de alcohol illegaal en werd dit vervangen door Suikersiroop. De cocaïne was nog wel aanwezig in het drankje. Vanwege vele aanrand- en verkrachtincidenten bij de vrouwen voelde de nieuwe eigenaar, Asa G. Candler de druk om de cocaïne uit het drankje te halen. Dit deed hij in 1903. </p>
-<p> Tegenwoordig staat Coca cola erom bekend dat hij de kerstman groot heeft gemaakt en 
-een fijne toevoeging is aan elk evenement. Coca cola heeft het slim aangepakt door het drankje te koppelen aan een feestdag. </p>
+                                Chocomel
+                            </b>
+                            <p>
+                                Chocomel is ook een goed voorbeeld. Als iemand een glas chocomelk wilt, spreekt bijna
+                                niemand het meer uit met een K op het einde. Terwijl dit eigenlijk gewoon de naam is van
+                                het merk en niet het product zelf. Chocomel is altijd heel scherp geweest met zijn
+                                marketingstrategie.
+                            </p>
+                            <p>
+                                Een laatste voorbeeld is Coca Cola. Coca Cola was vroeger een drankje waar cocaïne én
+                                alcohol in zat en was bedoeld als medicijn voor gewonden die uit de burgeroorlog
+                                terugkwamen. Later werd de alcohol illegaal en werd dit vervangen door Suikersiroop. De
+                                cocaïne was nog wel aanwezig in het drankje. Vanwege vele aanrand- en
+                                verkrachtincidenten bij de vrouwen voelde de nieuwe eigenaar, Asa G. Candler de druk om
+                                de cocaïne uit het drankje te halen. Dit deed hij in 1903. </p>
+                            <p> Tegenwoordig staat Coca cola erom bekend dat hij de kerstman groot heeft gemaakt en
+                                een fijne toevoeging is aan elk evenement. Coca cola heeft het slim aangepakt door het
+                                drankje te koppelen aan een feestdag. </p>
                         </div>
                         <div class="second">
-                        <b>
+                            <b>
 
-Aura
-</b>
-                      <p>  In de toekomst gaat de visual branding nog een stap verder. Dan gaat het om het visueel verkopen van je product via een communicatiemiddel als bijv. Whats’app, Instagram en Snapchat. Ook wel aura. Een goed voorbeeld hierbij is Chocomel. Tegenwoordig houdt Chocomel zich tijdens de feestdagen bezig met random letters op het pak. Met deze letters worden grappige woorden gemaakt in de supermarkt en dit delen mensen op social media. Zo wordt er dus gratis reclame gemaakt voor het merk zonder dat mensen het doorhebben. 
-Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedrijf waar je binnenloopt moet gelijk ‘picture-ready’ zijn en een huiselijke sfeer geven. Een klant moet bij het binnenkomen gelijk een uniek en goed gevoel krijgen die ze graag willen delen. Dunkin Donuts is een bedrijf wat dat op dit moment heel goed doet. De nieuwe inrichting is huiselijk industrieel met mooie verlichting. Je kan erbij zitten met je donut en het is gelijk ‘insta-ready.’ Op deze manier maak je weer gratis reclame voor een merk. </p>
-</div>
+                                Aura
+                            </b>
+                            <p> In de toekomst gaat de visual branding nog een stap verder. Dan gaat het om het visueel
+                                verkopen van je product via een communicatiemiddel als bijv. Whats’app, Instagram en
+                                Snapchat. Ook wel aura. Een goed voorbeeld hierbij is Chocomel. Tegenwoordig houdt
+                                Chocomel zich tijdens de feestdagen bezig met random letters op het pak. Met deze
+                                letters worden grappige woorden gemaakt in de supermarkt en dit delen mensen op social
+                                media. Zo wordt er dus gratis reclame gemaakt voor het merk zonder dat mensen het
+                                doorhebben.
+                                Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedrijf waar
+                                je binnenloopt moet gelijk ‘picture-ready’ zijn en een huiselijke sfeer geven. Een klant
+                                moet bij het binnenkomen gelijk een uniek en goed gevoel krijgen die ze graag willen
+                                delen. Dunkin Donuts is een bedrijf wat dat op dit moment heel goed doet. De nieuwe
+                                inrichting is huiselijk industrieel met mooie verlichting. Je kan erbij zitten met je
+                                donut en het is gelijk ‘insta-ready.’ Op deze manier maak je weer gratis reclame voor
+                                een merk. </p>
+                        </div>
 
-<div class="gabierow">
-<?php if($image = $page->image('chocomel-1.png')): ?>
+                        <div class="gabierow">
+                            <?php if($image = $page->image('chocomel-1.png')): ?>
                             <img src="<?= $image->url() ?>" alt="" class='image new'>
                             <?php endif ?>
 
-<?php if($image = $page->image('chocomel-2.png')): ?>
+                            <?php if($image = $page->image('chocomel-2.png')): ?>
                             <img src="<?= $image->url() ?>" alt="" class='image new hoi'>
                             <?php endif ?>
                         </div>
@@ -338,9 +376,7 @@ Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedr
                     <?php endif ?>
                     <h1>1. Brand experience</h1>
                     <p>
-                        Bekende en internationale merken weten hoe belangrijk merkbeleving is. Als mensen een positieve
-                        associatie bij je bedrijf hebben, zullen zij sneller tot een aankoop overgaan – zowel online als
-                        offline. Het creëren van de juiste brand experience is daarom altijd het uitgangspunt van visual
+                        Het creëren van de juiste brand experience is altijd het uitgangspunt van visual
                         branding, zeker bij fysieke contactmomenten. De verhaallijn eromheen, de quotes, social accounts
                         en de visuals moeten tot in de puntjes (of pixels) verzorgd zijn. Samen moet het één consistent
                         verhaal worden. Alleen zo creëer je als merk het juiste gevoel bij je doelgroep. Een voorbeeld
@@ -354,14 +390,10 @@ Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedr
                     <?php endif ?>
                     <h1>2. Comfort</h1>
                     <p>
-                        Het is van groot belang dat klanten zich thuis voelen in je winkel. Een kale muur of een
-                        karakterloos decor, is niet meer van deze tijd. Een winkel moet tegenwoordig zo in elkaar
-                        zitten, dat als je binnen komt lopen, het ‘instagram ready’ moet zijn. Een foto zou onbewerkt
-                        het internet op kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor
+                        Een winkel of restaurant moet tegenwoordig ‘instagram ready’ zijn. Een foto zou zo het internet op moeten kunnen gaan. Comfort staat niet alleen voor de inrichting maar ook voor
                         gebruiksgemak. Iedereen heeft een Smartphone en veel mensen maken gebruik van programma’s als
                         Snapchat & Instagram. Deze programma’s zijn bekend en dus makkelijk in te zetten voor bedrijven.
-                        Chocomel heeft dit bijv. ingezet bij de Chocomel letters. Deze letters worden via Snapchat
-                        online gedeeld.
+                        Chocomel heeft dit bijv. ingezet bij de Chocomel letters. 
                     </p>
                 </div>
 
@@ -371,9 +403,7 @@ Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedr
                     <?php endif ?>
                     <h1>3. Flexibiliteit</h1>
                     <p>
-                        Om de juiste merkbeleving en comfort te creëren, verlangen brandmanagers van sterke merken een
-                        grote mate van flexibiliteit in hun visuele communicatie. Ze willen op ieder moment het passende
-                        verhaal kunnen vertellen. Een merk moet eigenlijk op elk moment toepasbaar zijn. Met dit
+                        Een merk moet op elk moment van een jaar zijn/haar verhaal kunnen vertellen. Met dit
                         bedoelen we dat een merk visueel toepasbaar moet zijn op bijv. de seizoenen, feestdagen, back to
                         school dagen, maandelijkse evenementen, sportevenementen (denk aan de olympische spelen, etc
                         etc. Zo speelt Apple bijv. in op de back to school dagen, door extra korting te geven in de
@@ -388,13 +418,10 @@ Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedr
                     <h1>4. Duurzaamheid</h1>
                     <p>
 
-                        Elk global brand streeft naar een zo milieuvriendelijk mogelijke productieketen. Materiaalkeuze
-                        is hier ook van belang, denk bijv. aan opvouwbare textielen die zorgen voor minder volume,
-                        waardoor verpakking, opslag en vervoer efficiënter en milieuvriendelijker worden.
                         Duurzaamheid gaat, los van productieproces en materiaalkeuze, ook daadwerkelijk hand in hand met
                         de visuele uitstraling van een merk. In deze tijd, waarbij het milieu elke dag weer hoog in het
                         nieuws komt, is het ongeloofwaardig als je merkverhaal hierop achterloopt. Je kan flinke
-                        imagoschade oplopen als je erg milieuonvriendelijk produceert.
+                        imagoschade oplopen als je erg milieuonvriendelijk produceert. Mc Donalds heeft dit bijv. gedaan door o.a. het logo groen te maken i.p.v. rood.
 
 
 
@@ -522,6 +549,81 @@ Een ander belangrijk aspect is de inrichting van een winkel/restaurant. Het bedr
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="sources">
+            <h1 class="title">Bronvermelding</h1>
+
+            <ul>
+                <li>
+                    Butler, N. (2019, 13 november). How to Create a Powerful Brand Identity (A Step-by-Step Guide).
+                    Geraadpleegd op 26 januari 2020, van https://www.columnfivemedia.com/how-to-create-a-brand-identity
+                </li>
+                <li>
+                    Tubik Studio. (2018, 21 juni). 6 Creative Stages of Branding Design: Step-by-Step
+                    Guide. Geraadpleegd op 15 oktober 2019, van
+                    https://medium.com/@tubikstudio/6-creative-stages-of-branding-design-step-by-step-guide-be557fd329fd
+                </li>
+                <li>
+                    Building Out Your Visual Brand. (z.d.). Geraadpleegd op 15 oktober 2019, van
+                    https://blogs.spectrio.com/building-out-your-visual-brand
+                </li>
+
+                </li>
+
+                4 manieren waarop sterke merken zich met visual branding onderscheiden. (z.d.). Geraadpleegd op 15
+                oktober 2019, van
+                https://www.marketingtribune.nl/design/weblog/2017/04/4-manieren-waarop-sterke-merken-zich-met-visual-branding-onderscheiden/index.xml
+                </li>
+                <li>
+                    Visual branding » Brandstory. (z.d.-b). Geraadpleegd op 15 oktober 2019, van
+                    https://www.brandstory.nl/visual-branding/
+                </li>
+                <li>
+                    Nike’s “Just do it” slogan is based on a murderer’s last words, says Dan Wieden. (2017, 16 januari).
+                    Geraadpleegd op 15 oktober 2019, van
+                    https://www.dezeen.com/2015/03/14/nike-just-do-it-slogan-last-words-murderer-gary-gilmore-dan-wieden-kennedy/
+                </li>
+                <li>
+                    Knack Weekend. (2015, 19 augustus). Mysterie van de dag: waarom bevat Coca-Cola geen cocaïne
+                    meer? Geraadpleegd op 15 oktober 2019, van
+                    https://weekend.knack.be/lifestyle/culinair/mysterie-van-de-dag-waarom-bevat-coca-cola-geen-cocaine-meer/article-normal-462809.html?cookie_check=1573735534
+                </li>
+                <li>
+                    Zo werd Coca-Cola groot. (z.d.). Geraadpleegd op 15 oktober 2019, van
+                    https://www.sprout.nl/artikel/zo-werd-coca-cola-groot
+                </li>
+                <li>
+                    Poster, There Is No Finish Line, 1977. (z.d.). Geraadpleegd op 15 oktober 2019, van
+                    https://collection.cooperhewitt.org/objects/18617491/#image-rights
+                </li>
+                <li>
+                    YouTube. (z.d.). Geraadpleegd op 15 oktober 2019, van https://www.youtube.com/watch?v=KQnaqhNSvC0
+                </li>
+                <li>
+                    YouTube. (z.d.-b). Geraadpleegd op 15 oktober 2019, van https://www.youtube.com/watch?v=1TQv9fGfQWY
+                </li>
+                <li>
+                    YouTube. (z.d.-c). Geraadpleegd op 15 oktober 2019, van https://www.youtube.com/watch?v=5_znFPj5Lis
+                </li>
+                <li>
+                    All Free Mockups. (z.d.). Geraadpleegd op 20 december 2019, van
+                    https://www.mockupworld.co/all-mockups/
+                </li>
+                <li>
+                    Beautiful Free Images & Pictures. (z.d.). Geraadpleegd op 19,20,21 december 2019, van
+                    https://unsplash.com/ meerdere afbeeldingen zijn van Unsplash
+                </li>
+
+                <li>
+                    van Gompel, M. (2014, 20 oktober). RET-reizigers krijgen kortingsbonnen voor inleveren afval.
+                    Geraadpleegd op 20 december 2019, van
+                    https://www.ovpro.nl/metro/2014/10/20/ret-reizigers-krijgen-kortingsbonnen-voor-inleveren-afval/?gdpr=accept
+                </li>
+                <li>
+                    Flaticon, the largest database of free vector icons. (z.d.). Geraadpleegd op 20 december 2019, van https://www.flaticon.com
+                </li>
+            </ul>
         </section>
 
         <script>
